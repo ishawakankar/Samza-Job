@@ -1,0 +1,5 @@
+org/sample/ep/samza/task/SamzaConfig.class
+org/sample/ep/samza/task/SamzaSink.class
+org/sample/ep/samza/task/SamzaTask.class
+org/sample/ep/samza/task/SamzaSource.class
+org/sample/ep/samza/service/SamzaService.class

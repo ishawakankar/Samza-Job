@@ -1,0 +1,673 @@
+2019-07-10 16:03:45 JobRunner [INFO] job factory: org.apache.samza.job.yarn.YarnJobFactory
+2019-07-10 16:03:46 VerifiableProperties [INFO] Verifying properties
+2019-07-10 16:03:46 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-10 16:03:46 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-10 16:03:46 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-cad17259-bbe3-4b00-99d0-97521ad9636b
+2019-07-10 16:03:46 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-10 16:03:46 VerifiableProperties [INFO] Verifying properties
+2019-07-10 16:03:46 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-10 16:03:46 VerifiableProperties [INFO] Property client.id is overridden to samza_consumer-SamzaTask-1
+2019-07-10 16:03:46 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-504cb5df-4910-4241-a841-df5fa7c1d67d
+2019-07-10 16:03:46 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-10 16:03:46 VerifiableProperties [INFO] Verifying properties
+2019-07-10 16:03:46 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-10 16:03:46 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-10 16:03:46 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-02ed4156-d425-4e45-a29f-15c8187965e4
+2019-07-10 16:03:46 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-10 16:03:46 VerifiableProperties [INFO] Verifying properties
+2019-07-10 16:03:46 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-10 16:03:46 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-10 16:03:46 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-c559f05f-3485-4a2b-88ec-00eae3a283ac
+2019-07-10 16:03:46 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-10 16:03:46 JobRunner [INFO] Creating coordinator stream
+2019-07-10 16:03:46 VerifiableProperties [INFO] Verifying properties
+2019-07-10 16:03:46 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-10 16:03:46 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-10 16:03:46 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-70cf97bd-aa24-4c51-9ee4-20812eab8166
+2019-07-10 16:03:46 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-10 16:03:46 KafkaSystemAdmin [INFO] Create topic __samza_coordinator_SamzaTask_1 in system kafka
+2019-07-10 16:03:46 ZkEventThread [INFO] Starting ZkClient event thread.
+2019-07-10 16:03:51 ZooKeeper [INFO] Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2019-07-10 16:03:51 ZooKeeper [INFO] Client environment:host.name=172.16.0.151
+2019-07-10 16:03:51 ZooKeeper [INFO] Client environment:java.version=1.8.0_202
+2019-07-10 16:03:51 ZooKeeper [INFO] Client environment:java.vendor=Oracle Corporation
+2019-07-10 16:03:51 ZooKeeper [INFO] Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+2019-07-10 16:03:51 ZooKeeper [INFO] Client environment:java.class.path=/Users/ishawakankar/.samza/conf:pathing.jar
+2019-07-10 16:03:51 ZooKeeper [INFO] Client environment:java.library.path=/Users/ishawakankar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2019-07-10 16:03:51 ZooKeeper [INFO] Client environment:java.io.tmpdir=/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/deploy/samza/tmp
+2019-07-10 16:03:51 ZooKeeper [INFO] Client environment:java.compiler=<NA>
+2019-07-10 16:03:51 ZooKeeper [INFO] Client environment:os.name=Mac OS X
+2019-07-10 16:03:51 ZooKeeper [INFO] Client environment:os.arch=x86_64
+2019-07-10 16:03:51 ZooKeeper [INFO] Client environment:os.version=10.14.5
+2019-07-10 16:03:51 ZooKeeper [INFO] Client environment:user.name=ishawakankar
+2019-07-10 16:03:51 ZooKeeper [INFO] Client environment:user.home=/Users/ishawakankar
+2019-07-10 16:03:51 ZooKeeper [INFO] Client environment:user.dir=/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/deploy/samza
+2019-07-10 16:03:51 ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@1649b0e6
+2019-07-10 16:03:51 ZkClient [INFO] Waiting for keeper state SyncConnected
+2019-07-10 16:03:51 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-07-10 16:03:51 ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2019-07-10 16:03:51 ClientCnxn [INFO] Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x100003cd0c80005, negotiated timeout = 6000
+2019-07-10 16:03:51 ZkClient [INFO] zookeeper state changed (SyncConnected)
+2019-07-10 16:03:51 AdminUtils$ [INFO] Topic creation {"version":1,"partitions":{"0":[0]}}
+2019-07-10 16:03:51 ZkEventThread [INFO] Terminate ZkClient event thread.
+2019-07-10 16:03:51 ZooKeeper [INFO] Session: 0x100003cd0c80005 closed
+2019-07-10 16:03:51 JobRunner [INFO] Created coordinator stream __samza_coordinator_SamzaTask_1.
+2019-07-10 16:03:51 ClientCnxn [INFO] EventThread shut down
+2019-07-10 16:03:51 JobRunner [INFO] Storing config in coordinator stream.
+2019-07-10 16:03:51 CoordinatorStreamSystemProducer [INFO] Starting coordinator stream producer.
+2019-07-10 16:03:51 ProducerConfig [INFO] ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = samza_producer-SamzaTask-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	linger.ms = 10
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 1
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2019-07-10 16:03:51 AppInfoParser [INFO] Kafka version : 0.11.0.2
+2019-07-10 16:03:51 AppInfoParser [INFO] Kafka commitId : 73be1e1168f91ee2
+2019-07-10 16:06:12 JobRunner [INFO] Loading old config from coordinator stream.
+2019-07-10 16:06:12 VerifiableProperties [INFO] Verifying properties
+2019-07-10 16:06:12 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-10 16:06:12 VerifiableProperties [INFO] Property metadata.broker.list is overridden to localhost:9092
+2019-07-10 16:06:12 VerifiableProperties [INFO] Property request.timeout.ms is overridden to 30000
+2019-07-10 16:06:12 ClientUtils$ [INFO] Fetching metadata from broker BrokerEndPoint(0,localhost,9092) with correlation id 0 for 1 topic(s) Set(__samza_coordinator_SamzaTask_1)
+2019-07-10 16:06:12 SyncProducer [INFO] Connected to localhost:9092 for producing
+2019-07-10 16:06:12 SyncProducer [INFO] Disconnecting from localhost:9092
+2019-07-10 16:06:12 CoordinatorStreamSystemConsumer [INFO] Got metadata {__samza_coordinator_SamzaTask_1=SystemStreamMetadata [streamName=__samza_coordinator_SamzaTask_1, partitionMetadata={Partition [partition=0]=SystemStreamPartitionMetadata [oldestOffset=0, newestOffset=27, upcomingOffset=28]}]}
+2019-07-10 16:06:12 CoordinatorStreamSystemConsumer [INFO] Starting coordinator stream system consumer.
+2019-07-10 16:06:12 KafkaSystemConsumer [INFO] Refreshing brokers for: Map([__samza_coordinator_SamzaTask_1,0] -> 0)
+2019-07-10 16:06:12 BrokerProxy [INFO] Creating new SimpleConsumer for host 172.16.0.151:9092 for system kafka
+2019-07-10 16:06:12 GetOffset [INFO] Validating offset 0 for topic and partition [__samza_coordinator_SamzaTask_1,0]
+2019-07-10 16:06:12 GetOffset [INFO] Able to successfully read from offset 0 for topic and partition [__samza_coordinator_SamzaTask_1,0]. Using it to instantiate consumer.
+2019-07-10 16:06:12 BrokerProxy [INFO] Starting BrokerProxy for 172.16.0.151:9092
+2019-07-10 16:06:12 CoordinatorStreamSystemConsumer [INFO] Bootstrapping configuration from coordinator stream.
+2019-07-10 16:06:13 CoordinatorStreamSystemConsumer [INFO] Stopping coordinator stream system consumer.
+2019-07-10 16:06:13 BrokerProxy [INFO] Shutting down BrokerProxy for 172.16.0.151:9092
+2019-07-10 16:06:13 BrokerProxy [INFO] closing simple consumer...
+2019-07-10 16:06:13 BrokerProxy [INFO] Shutting down due to interrupt.
+2019-07-10 16:06:13 JobRunner [INFO] Deleting old configs that are no longer defined: Set()
+2019-07-10 16:06:13 CoordinatorStreamSystemProducer [INFO] Stopping coordinator stream producer.
+2019-07-10 16:06:13 KafkaSystemProducer [INFO] Stopping producer for system: kafka
+2019-07-10 16:06:13 KafkaProducer [INFO] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2019-07-10 16:06:13 ClientHelper [INFO] trying to connect to RM 127.0.0.1:8032
+2019-07-10 16:06:13 RMProxy [INFO] Connecting to ResourceManager at /127.0.0.1:8032
+2019-07-10 16:06:13 NativeCodeLoader [WARN] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-10 16:06:14 YarnJob [INFO] Inside YarnJob: fwk_path is , ver is STABLE use it directly 
+2019-07-10 16:06:15 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:06:16 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:06:17 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:06:18 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:06:19 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:06:20 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:06:21 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:06:22 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:06:23 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:06:24 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:07:00 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:07:01 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:07:02 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:07:03 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:07:04 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:07:05 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:07:06 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:07:07 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:07:08 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:07:09 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:07:45 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:07:46 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:07:47 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:07:48 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:07:49 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:07:50 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:07:51 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:07:52 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:07:53 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:07:54 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:08:30 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:08:31 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:08:32 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:08:33 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:08:34 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:08:35 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:08:36 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:08:37 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:08:38 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:08:39 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:09:15 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:09:16 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:09:17 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:09:18 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:09:19 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:09:20 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:09:21 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:09:22 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:09:23 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:09:24 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:10:00 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:10:01 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:10:02 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:10:03 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:10:04 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:10:05 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:10:06 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:10:07 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:10:08 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:10:09 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:10:45 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:10:46 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:10:47 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:10:48 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:10:49 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:10:50 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:10:51 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:10:52 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:10:53 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:10:54 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:11:30 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:11:31 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:11:32 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:11:33 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:11:34 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:11:35 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:11:36 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:11:37 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:11:38 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:11:39 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:15:24 JobRunner [INFO] job factory: org.apache.samza.job.yarn.YarnJobFactory
+2019-07-10 16:15:24 VerifiableProperties [INFO] Verifying properties
+2019-07-10 16:15:24 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-10 16:15:24 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-10 16:15:24 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-229cee5d-5a34-4f5b-841f-e2eef0e69120
+2019-07-10 16:15:24 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-10 16:15:25 VerifiableProperties [INFO] Verifying properties
+2019-07-10 16:15:25 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-10 16:15:25 VerifiableProperties [INFO] Property client.id is overridden to samza_consumer-SamzaTask-1
+2019-07-10 16:15:25 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-6e177554-eb4e-443b-be40-9a93e9561962
+2019-07-10 16:15:25 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-10 16:15:25 VerifiableProperties [INFO] Verifying properties
+2019-07-10 16:15:25 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-10 16:15:25 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-10 16:15:25 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-3b7eb917-5671-4976-8e32-7f010a5a0bd2
+2019-07-10 16:15:25 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-10 16:15:25 VerifiableProperties [INFO] Verifying properties
+2019-07-10 16:15:25 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-10 16:15:25 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-10 16:15:25 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-04ebe2a1-a7a5-4050-ae09-8ffc6d650280
+2019-07-10 16:15:25 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-10 16:15:25 JobRunner [INFO] Creating coordinator stream
+2019-07-10 16:15:25 VerifiableProperties [INFO] Verifying properties
+2019-07-10 16:15:25 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-10 16:15:25 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-10 16:15:25 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-7c2e1a63-20ae-459e-b83b-9ae68aa43a30
+2019-07-10 16:15:25 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-10 16:15:25 KafkaSystemAdmin [INFO] Create topic __samza_coordinator_SamzaTask_1 in system kafka
+2019-07-10 16:15:25 ZkEventThread [INFO] Starting ZkClient event thread.
+2019-07-10 16:15:30 ZooKeeper [INFO] Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2019-07-10 16:15:30 ZooKeeper [INFO] Client environment:host.name=172.16.0.151
+2019-07-10 16:15:30 ZooKeeper [INFO] Client environment:java.version=1.8.0_202
+2019-07-10 16:15:30 ZooKeeper [INFO] Client environment:java.vendor=Oracle Corporation
+2019-07-10 16:15:30 ZooKeeper [INFO] Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+2019-07-10 16:15:30 ZooKeeper [INFO] Client environment:java.class.path=/Users/ishawakankar/.samza/conf:pathing.jar
+2019-07-10 16:15:30 ZooKeeper [INFO] Client environment:java.library.path=/Users/ishawakankar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2019-07-10 16:15:30 ZooKeeper [INFO] Client environment:java.io.tmpdir=/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/deploy/samza/tmp
+2019-07-10 16:15:30 ZooKeeper [INFO] Client environment:java.compiler=<NA>
+2019-07-10 16:15:30 ZooKeeper [INFO] Client environment:os.name=Mac OS X
+2019-07-10 16:15:30 ZooKeeper [INFO] Client environment:os.arch=x86_64
+2019-07-10 16:15:30 ZooKeeper [INFO] Client environment:os.version=10.14.5
+2019-07-10 16:15:30 ZooKeeper [INFO] Client environment:user.name=ishawakankar
+2019-07-10 16:15:30 ZooKeeper [INFO] Client environment:user.home=/Users/ishawakankar
+2019-07-10 16:15:30 ZooKeeper [INFO] Client environment:user.dir=/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/deploy/samza
+2019-07-10 16:15:30 ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@1649b0e6
+2019-07-10 16:15:30 ZkClient [INFO] Waiting for keeper state SyncConnected
+2019-07-10 16:15:30 ClientCnxn [INFO] Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-07-10 16:15:30 ClientCnxn [INFO] Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2019-07-10 16:15:30 ClientCnxn [INFO] Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x100003cd0c80006, negotiated timeout = 6000
+2019-07-10 16:15:30 ZkClient [INFO] zookeeper state changed (SyncConnected)
+2019-07-10 16:15:30 ZkEventThread [INFO] Terminate ZkClient event thread.
+2019-07-10 16:15:30 ZooKeeper [INFO] Session: 0x100003cd0c80006 closed
+2019-07-10 16:15:30 ClientCnxn [INFO] EventThread shut down
+2019-07-10 16:15:30 JobRunner [INFO] Coordinator stream __samza_coordinator_SamzaTask_1 already exists.
+2019-07-10 16:15:30 JobRunner [INFO] Storing config in coordinator stream.
+2019-07-10 16:15:30 CoordinatorStreamSystemProducer [INFO] Starting coordinator stream producer.
+2019-07-10 16:15:30 ProducerConfig [INFO] ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = samza_producer-SamzaTask-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	linger.ms = 10
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 1
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2019-07-10 16:15:30 AppInfoParser [INFO] Kafka version : 0.11.0.2
+2019-07-10 16:15:30 AppInfoParser [INFO] Kafka commitId : 73be1e1168f91ee2
+2019-07-10 16:17:55 JobRunner [INFO] Loading old config from coordinator stream.
+2019-07-10 16:17:55 VerifiableProperties [INFO] Verifying properties
+2019-07-10 16:17:55 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-10 16:17:55 VerifiableProperties [INFO] Property metadata.broker.list is overridden to localhost:9092
+2019-07-10 16:17:55 VerifiableProperties [INFO] Property request.timeout.ms is overridden to 30000
+2019-07-10 16:17:55 ClientUtils$ [INFO] Fetching metadata from broker BrokerEndPoint(0,localhost,9092) with correlation id 0 for 1 topic(s) Set(__samza_coordinator_SamzaTask_1)
+2019-07-10 16:17:55 SyncProducer [INFO] Connected to localhost:9092 for producing
+2019-07-10 16:17:55 SyncProducer [INFO] Disconnecting from localhost:9092
+2019-07-10 16:17:55 CoordinatorStreamSystemConsumer [INFO] Got metadata {__samza_coordinator_SamzaTask_1=SystemStreamMetadata [streamName=__samza_coordinator_SamzaTask_1, partitionMetadata={Partition [partition=0]=SystemStreamPartitionMetadata [oldestOffset=0, newestOffset=56, upcomingOffset=57]}]}
+2019-07-10 16:17:55 CoordinatorStreamSystemConsumer [INFO] Starting coordinator stream system consumer.
+2019-07-10 16:17:55 KafkaSystemConsumer [INFO] Refreshing brokers for: Map([__samza_coordinator_SamzaTask_1,0] -> 0)
+2019-07-10 16:17:55 BrokerProxy [INFO] Creating new SimpleConsumer for host 172.16.0.151:9092 for system kafka
+2019-07-10 16:17:55 GetOffset [INFO] Validating offset 0 for topic and partition [__samza_coordinator_SamzaTask_1,0]
+2019-07-10 16:17:55 GetOffset [INFO] Able to successfully read from offset 0 for topic and partition [__samza_coordinator_SamzaTask_1,0]. Using it to instantiate consumer.
+2019-07-10 16:17:55 BrokerProxy [INFO] Starting BrokerProxy for 172.16.0.151:9092
+2019-07-10 16:17:55 CoordinatorStreamSystemConsumer [INFO] Bootstrapping configuration from coordinator stream.
+2019-07-10 16:17:57 CoordinatorStreamSystemConsumer [INFO] Stopping coordinator stream system consumer.
+2019-07-10 16:17:57 BrokerProxy [INFO] Shutting down BrokerProxy for 172.16.0.151:9092
+2019-07-10 16:17:57 BrokerProxy [INFO] closing simple consumer...
+2019-07-10 16:17:57 BrokerProxy [INFO] Shutting down due to interrupt.
+2019-07-10 16:17:57 JobRunner [INFO] Deleting old configs that are no longer defined: Set()
+2019-07-10 16:17:57 CoordinatorStreamSystemProducer [INFO] Stopping coordinator stream producer.
+2019-07-10 16:17:57 KafkaSystemProducer [INFO] Stopping producer for system: kafka
+2019-07-10 16:17:57 KafkaProducer [INFO] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2019-07-10 16:17:57 ClientHelper [INFO] trying to connect to RM 127.0.0.1:8032
+2019-07-10 16:17:57 RMProxy [INFO] Connecting to ResourceManager at /127.0.0.1:8032
+2019-07-10 16:17:57 NativeCodeLoader [WARN] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-10 16:17:57 YarnJob [INFO] Inside YarnJob: fwk_path is , ver is STABLE use it directly 
+2019-07-10 16:17:58 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:17:59 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:18:00 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:18:01 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:18:02 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:18:03 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:18:04 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:18:05 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:18:06 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:18:07 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:18:43 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:18:44 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:18:45 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:18:46 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:18:47 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:18:48 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:18:49 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:18:50 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:18:51 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:18:52 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:19:28 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:19:29 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:19:30 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:19:31 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:19:32 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:19:33 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:19:34 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:19:35 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:19:36 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:19:37 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:20:13 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:20:14 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:20:15 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:20:16 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:20:17 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:20:19 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:20:20 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:20:21 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:20:22 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:20:23 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:20:59 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:21:00 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:21:01 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:21:02 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:21:03 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:21:04 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:21:05 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:21:06 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:21:07 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:21:08 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:21:44 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:21:45 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:21:46 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:21:47 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:21:48 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:21:49 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:21:50 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:21:51 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:21:52 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:21:53 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:22:29 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:22:30 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:22:31 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:22:32 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:22:33 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:22:34 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:22:35 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:22:36 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:22:37 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:22:38 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:23:14 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:23:15 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:23:16 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:23:17 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:23:18 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:23:19 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:23:20 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:23:21 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:23:22 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:23:23 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:23:59 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:24:00 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:24:01 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:24:02 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:24:03 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:24:04 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:24:05 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:24:06 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:24:07 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:24:08 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:24:44 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:24:45 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:24:46 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:24:47 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:24:48 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:24:49 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:24:50 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:24:51 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:24:52 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:24:53 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:25:29 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:25:30 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:25:31 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:25:32 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:25:33 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:25:34 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:25:35 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:25:36 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:25:37 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:25:38 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:26:14 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:26:15 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:26:16 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:26:17 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:26:18 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:26:19 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:26:20 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:26:21 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:26:22 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:26:23 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:26:59 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:27:00 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:27:01 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:27:02 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:27:03 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:27:04 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:27:05 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:27:06 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:27:07 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:27:08 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:27:44 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:27:45 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:27:46 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:27:47 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:27:48 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:27:49 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:27:50 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:27:51 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:27:52 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:27:53 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:28:29 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:28:30 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:28:31 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:28:32 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:28:33 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:28:34 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:28:35 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:28:36 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:28:37 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:28:38 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:29:14 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:29:15 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:29:16 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:29:17 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:29:18 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:29:19 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:29:20 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:29:21 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:29:22 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:29:23 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:29:59 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:30:00 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:30:01 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:30:02 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:30:03 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:30:04 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:30:05 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:30:06 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:30:07 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:30:08 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:30:44 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:30:45 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:30:46 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:30:47 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:30:48 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:30:49 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:30:50 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:30:51 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:30:52 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:30:53 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:31:29 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:31:30 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:31:31 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:31:32 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:31:33 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:31:34 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:31:35 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:31:36 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:31:37 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:31:38 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:32:14 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:32:15 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:32:16 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:32:17 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:32:18 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:32:19 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:32:20 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:32:21 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:32:22 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:32:23 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:32:59 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:33:00 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:33:01 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:33:02 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:33:03 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:33:04 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:33:05 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:33:06 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:33:07 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:33:08 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:33:44 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:33:45 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:33:46 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:33:47 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:33:48 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:33:49 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:33:50 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:33:51 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:33:52 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:33:53 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:34:30 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:34:31 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:34:32 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:34:33 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:34:34 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:34:35 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:34:36 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:34:37 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:34:38 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:34:39 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:35:15 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:35:16 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:35:17 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:35:18 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:35:19 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:35:20 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:35:21 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:35:22 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:35:23 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:35:24 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:36:00 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:36:01 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:36:02 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:36:03 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:36:04 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:36:05 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:36:06 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:36:07 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:36:08 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:36:09 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:36:45 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:36:46 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:36:47 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:36:48 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:36:49 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:36:50 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:36:51 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:36:52 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:36:53 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:36:54 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:37:30 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:37:31 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:37:32 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:37:33 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:37:34 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:37:35 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:37:36 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:37:37 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:37:38 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:37:39 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:38:15 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:38:16 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:38:17 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:38:18 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:38:19 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:38:20 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:38:21 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:38:22 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:38:23 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:38:24 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:39:00 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:39:01 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:39:02 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:39:03 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:39:04 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:39:05 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:39:06 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:39:07 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:39:08 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:39:09 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:39:45 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:39:46 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:39:47 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:39:48 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:39:49 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:39:50 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:39:51 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:39:52 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:39:53 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:39:54 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:40:30 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:40:31 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:40:32 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:40:33 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:40:34 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:40:35 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:40:36 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:40:37 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:40:38 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-10 16:40:39 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
