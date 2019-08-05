@@ -671,3 +671,1854 @@
 2019-07-10 16:40:37 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
 2019-07-10 16:40:38 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
 2019-07-10 16:40:39 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:01:36 JobRunner [INFO] job factory: org.apache.samza.job.yarn.YarnJobFactory
+2019-07-11 12:01:37 VerifiableProperties [INFO] Verifying properties
+2019-07-11 12:01:37 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-11 12:01:37 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-11 12:01:37 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-926e80df-0e3b-4f2b-87bd-a0d4e3fc0749
+2019-07-11 12:01:37 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-11 12:01:37 VerifiableProperties [INFO] Verifying properties
+2019-07-11 12:01:37 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-11 12:01:37 VerifiableProperties [INFO] Property client.id is overridden to samza_consumer-SamzaTask-1
+2019-07-11 12:01:37 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-2da8a2bc-3c33-4e4b-9f6d-8c7f02c6c1ff
+2019-07-11 12:01:37 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-11 12:01:37 VerifiableProperties [INFO] Verifying properties
+2019-07-11 12:01:37 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-11 12:01:37 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-11 12:01:37 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-63c6c6ff-9b6b-45f2-83de-06e29b9b23fa
+2019-07-11 12:01:37 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-11 12:01:37 VerifiableProperties [INFO] Verifying properties
+2019-07-11 12:01:37 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-11 12:01:37 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-11 12:01:37 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-d943e260-77c7-4f10-8216-32adb4cd27d3
+2019-07-11 12:01:37 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-11 12:01:37 JobRunner [INFO] Creating coordinator stream
+2019-07-11 12:01:37 VerifiableProperties [INFO] Verifying properties
+2019-07-11 12:01:37 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-11 12:01:37 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-11 12:01:37 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-d96631a6-0100-473c-a88b-f9163592bd37
+2019-07-11 12:01:37 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-11 12:01:37 KafkaSystemAdmin [INFO] Create topic __samza_coordinator_SamzaTask_1 in system kafka
+2019-07-11 12:01:37 ZkEventThread [INFO] Starting ZkClient event thread.
+2019-07-11 12:01:42 ZooKeeper [INFO] Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2019-07-11 12:01:42 ZooKeeper [INFO] Client environment:host.name=172.16.0.151
+2019-07-11 12:01:42 ZooKeeper [INFO] Client environment:java.version=1.8.0_202
+2019-07-11 12:01:42 ZooKeeper [INFO] Client environment:java.vendor=Oracle Corporation
+2019-07-11 12:01:42 ZooKeeper [INFO] Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+2019-07-11 12:01:42 ZooKeeper [INFO] Client environment:java.class.path=/Users/ishawakankar/.samza/conf:pathing.jar
+2019-07-11 12:01:42 ZooKeeper [INFO] Client environment:java.library.path=/Users/ishawakankar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2019-07-11 12:01:42 ZooKeeper [INFO] Client environment:java.io.tmpdir=/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/deploy/samza/tmp
+2019-07-11 12:01:42 ZooKeeper [INFO] Client environment:java.compiler=<NA>
+2019-07-11 12:01:42 ZooKeeper [INFO] Client environment:os.name=Mac OS X
+2019-07-11 12:01:42 ZooKeeper [INFO] Client environment:os.arch=x86_64
+2019-07-11 12:01:42 ZooKeeper [INFO] Client environment:os.version=10.14.5
+2019-07-11 12:01:42 ZooKeeper [INFO] Client environment:user.name=ishawakankar
+2019-07-11 12:01:42 ZooKeeper [INFO] Client environment:user.home=/Users/ishawakankar
+2019-07-11 12:01:42 ZooKeeper [INFO] Client environment:user.dir=/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/deploy/samza
+2019-07-11 12:01:42 ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@1649b0e6
+2019-07-11 12:01:42 ZkClient [INFO] Waiting for keeper state SyncConnected
+2019-07-11 12:01:42 ClientCnxn [INFO] Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-07-11 12:01:42 ClientCnxn [INFO] Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2019-07-11 12:01:42 ClientCnxn [INFO] Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x10002113d580001, negotiated timeout = 6000
+2019-07-11 12:01:42 ZkClient [INFO] zookeeper state changed (SyncConnected)
+2019-07-11 12:01:42 ZkEventThread [INFO] Terminate ZkClient event thread.
+2019-07-11 12:01:42 ZooKeeper [INFO] Session: 0x10002113d580001 closed
+2019-07-11 12:01:42 ClientCnxn [INFO] EventThread shut down
+2019-07-11 12:01:42 JobRunner [INFO] Coordinator stream __samza_coordinator_SamzaTask_1 already exists.
+2019-07-11 12:01:42 JobRunner [INFO] Storing config in coordinator stream.
+2019-07-11 12:01:42 CoordinatorStreamSystemProducer [INFO] Starting coordinator stream producer.
+2019-07-11 12:01:42 ProducerConfig [INFO] ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = samza_producer-SamzaTask-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	linger.ms = 10
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 1
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2019-07-11 12:01:42 AppInfoParser [INFO] Kafka version : 0.11.0.2
+2019-07-11 12:01:42 AppInfoParser [INFO] Kafka commitId : 73be1e1168f91ee2
+2019-07-11 12:04:08 JobRunner [INFO] Loading old config from coordinator stream.
+2019-07-11 12:04:08 VerifiableProperties [INFO] Verifying properties
+2019-07-11 12:04:08 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-11 12:04:08 VerifiableProperties [INFO] Property metadata.broker.list is overridden to localhost:9092
+2019-07-11 12:04:08 VerifiableProperties [INFO] Property request.timeout.ms is overridden to 30000
+2019-07-11 12:04:08 ClientUtils$ [INFO] Fetching metadata from broker BrokerEndPoint(0,localhost,9092) with correlation id 0 for 1 topic(s) Set(__samza_coordinator_SamzaTask_1)
+2019-07-11 12:04:08 SyncProducer [INFO] Connected to localhost:9092 for producing
+2019-07-11 12:04:08 SyncProducer [INFO] Disconnecting from localhost:9092
+2019-07-11 12:04:08 CoordinatorStreamSystemConsumer [INFO] Got metadata {__samza_coordinator_SamzaTask_1=SystemStreamMetadata [streamName=__samza_coordinator_SamzaTask_1, partitionMetadata={Partition [partition=0]=SystemStreamPartitionMetadata [oldestOffset=0, newestOffset=85, upcomingOffset=86]}]}
+2019-07-11 12:04:08 CoordinatorStreamSystemConsumer [INFO] Starting coordinator stream system consumer.
+2019-07-11 12:04:08 KafkaSystemConsumer [INFO] Refreshing brokers for: Map([__samza_coordinator_SamzaTask_1,0] -> 0)
+2019-07-11 12:04:09 BrokerProxy [INFO] Creating new SimpleConsumer for host 172.16.0.151:9092 for system kafka
+2019-07-11 12:04:09 GetOffset [INFO] Validating offset 0 for topic and partition [__samza_coordinator_SamzaTask_1,0]
+2019-07-11 12:04:09 GetOffset [INFO] Able to successfully read from offset 0 for topic and partition [__samza_coordinator_SamzaTask_1,0]. Using it to instantiate consumer.
+2019-07-11 12:04:09 BrokerProxy [INFO] Starting BrokerProxy for 172.16.0.151:9092
+2019-07-11 12:04:09 CoordinatorStreamSystemConsumer [INFO] Bootstrapping configuration from coordinator stream.
+2019-07-11 12:04:10 CoordinatorStreamSystemConsumer [INFO] Stopping coordinator stream system consumer.
+2019-07-11 12:04:10 BrokerProxy [INFO] Shutting down BrokerProxy for 172.16.0.151:9092
+2019-07-11 12:04:10 BrokerProxy [INFO] closing simple consumer...
+2019-07-11 12:04:10 BrokerProxy [INFO] Shutting down due to interrupt.
+2019-07-11 12:04:10 JobRunner [INFO] Deleting old configs that are no longer defined: Set()
+2019-07-11 12:04:10 CoordinatorStreamSystemProducer [INFO] Stopping coordinator stream producer.
+2019-07-11 12:04:10 KafkaSystemProducer [INFO] Stopping producer for system: kafka
+2019-07-11 12:04:10 KafkaProducer [INFO] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2019-07-11 12:04:10 ClientHelper [INFO] trying to connect to RM 127.0.0.1:8032
+2019-07-11 12:04:10 RMProxy [INFO] Connecting to ResourceManager at /127.0.0.1:8032
+2019-07-11 12:04:10 NativeCodeLoader [WARN] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-11 12:04:11 YarnJob [INFO] Inside YarnJob: fwk_path is , ver is STABLE use it directly 
+2019-07-11 12:04:12 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:04:13 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:04:14 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:04:15 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:04:16 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:04:17 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:04:18 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:04:19 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:04:20 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:04:21 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:04:57 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:04:58 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:04:59 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:05:00 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:05:01 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:05:02 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:05:03 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:05:04 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:05:05 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:05:06 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:05:42 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:05:43 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:05:44 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:05:45 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:05:46 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:05:47 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:05:48 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:05:49 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:05:50 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:05:51 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:06:27 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:06:28 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:06:29 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:06:30 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:06:31 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:06:32 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:06:33 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:06:34 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:06:35 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:06:36 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-11 12:07:11 ClientHelper [INFO] preparing to request resources for app id application_1562827016562_0001
+2019-07-11 12:07:11 YarnJobUtil$ [INFO] No staging dir exists
+2019-07-11 12:09:01 JobRunner [INFO] job factory: org.apache.samza.job.yarn.YarnJobFactory
+2019-07-11 12:09:01 VerifiableProperties [INFO] Verifying properties
+2019-07-11 12:09:01 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-11 12:09:01 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-11 12:09:01 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-be718b63-3a61-434e-bfe7-455c37372379
+2019-07-11 12:09:01 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-11 12:09:01 VerifiableProperties [INFO] Verifying properties
+2019-07-11 12:09:01 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-11 12:09:01 VerifiableProperties [INFO] Property client.id is overridden to samza_consumer-SamzaTask-1
+2019-07-11 12:09:01 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-e4514279-c0e7-4154-a6ff-095d15eef0cd
+2019-07-11 12:09:01 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-11 12:09:01 VerifiableProperties [INFO] Verifying properties
+2019-07-11 12:09:01 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-11 12:09:01 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-11 12:09:01 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-0f53bf97-8a44-4476-8b99-2c631b8cb40f
+2019-07-11 12:09:01 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-11 12:09:01 VerifiableProperties [INFO] Verifying properties
+2019-07-11 12:09:01 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-11 12:09:01 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-11 12:09:01 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-f1c4b33d-99a3-4336-a5e8-0ef62ec6735b
+2019-07-11 12:09:01 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-11 12:09:01 JobRunner [INFO] Creating coordinator stream
+2019-07-11 12:09:01 VerifiableProperties [INFO] Verifying properties
+2019-07-11 12:09:01 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-11 12:09:01 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-11 12:09:01 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-cd65408d-a766-4185-ad0f-c2cad41d3de5
+2019-07-11 12:09:01 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-11 12:09:01 KafkaSystemAdmin [INFO] Create topic __samza_coordinator_SamzaTask_1 in system kafka
+2019-07-11 12:09:01 ZkEventThread [INFO] Starting ZkClient event thread.
+2019-07-11 12:09:06 ZooKeeper [INFO] Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2019-07-11 12:09:06 ZooKeeper [INFO] Client environment:host.name=172.16.0.151
+2019-07-11 12:09:06 ZooKeeper [INFO] Client environment:java.version=1.8.0_202
+2019-07-11 12:09:06 ZooKeeper [INFO] Client environment:java.vendor=Oracle Corporation
+2019-07-11 12:09:06 ZooKeeper [INFO] Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+2019-07-11 12:09:06 ZooKeeper [INFO] Client environment:java.class.path=/Users/ishawakankar/.samza/conf:pathing.jar
+2019-07-11 12:09:06 ZooKeeper [INFO] Client environment:java.library.path=/Users/ishawakankar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2019-07-11 12:09:06 ZooKeeper [INFO] Client environment:java.io.tmpdir=/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/deploy/samza/tmp
+2019-07-11 12:09:06 ZooKeeper [INFO] Client environment:java.compiler=<NA>
+2019-07-11 12:09:06 ZooKeeper [INFO] Client environment:os.name=Mac OS X
+2019-07-11 12:09:06 ZooKeeper [INFO] Client environment:os.arch=x86_64
+2019-07-11 12:09:06 ZooKeeper [INFO] Client environment:os.version=10.14.5
+2019-07-11 12:09:06 ZooKeeper [INFO] Client environment:user.name=ishawakankar
+2019-07-11 12:09:06 ZooKeeper [INFO] Client environment:user.home=/Users/ishawakankar
+2019-07-11 12:09:06 ZooKeeper [INFO] Client environment:user.dir=/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/deploy/samza
+2019-07-11 12:09:06 ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@1649b0e6
+2019-07-11 12:09:06 ZkClient [INFO] Waiting for keeper state SyncConnected
+2019-07-11 12:09:06 ClientCnxn [INFO] Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-07-11 12:09:06 ClientCnxn [INFO] Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2019-07-11 12:09:06 ClientCnxn [INFO] Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x10002113d580002, negotiated timeout = 6000
+2019-07-11 12:09:06 ZkClient [INFO] zookeeper state changed (SyncConnected)
+2019-07-11 12:09:07 ZkEventThread [INFO] Terminate ZkClient event thread.
+2019-07-11 12:09:07 ZooKeeper [INFO] Session: 0x10002113d580002 closed
+2019-07-11 12:09:07 ClientCnxn [INFO] EventThread shut down
+2019-07-11 12:09:07 JobRunner [INFO] Coordinator stream __samza_coordinator_SamzaTask_1 already exists.
+2019-07-11 12:09:07 JobRunner [INFO] Storing config in coordinator stream.
+2019-07-11 12:09:07 CoordinatorStreamSystemProducer [INFO] Starting coordinator stream producer.
+2019-07-11 12:09:07 ProducerConfig [INFO] ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = samza_producer-SamzaTask-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	linger.ms = 10
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 1
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2019-07-11 12:09:07 AppInfoParser [INFO] Kafka version : 0.11.0.2
+2019-07-11 12:09:07 AppInfoParser [INFO] Kafka commitId : 73be1e1168f91ee2
+2019-07-11 12:11:32 JobRunner [INFO] Loading old config from coordinator stream.
+2019-07-11 12:11:32 VerifiableProperties [INFO] Verifying properties
+2019-07-11 12:11:32 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-11 12:11:32 VerifiableProperties [INFO] Property metadata.broker.list is overridden to localhost:9092
+2019-07-11 12:11:32 VerifiableProperties [INFO] Property request.timeout.ms is overridden to 30000
+2019-07-11 12:11:32 ClientUtils$ [INFO] Fetching metadata from broker BrokerEndPoint(0,localhost,9092) with correlation id 0 for 1 topic(s) Set(__samza_coordinator_SamzaTask_1)
+2019-07-11 12:11:32 SyncProducer [INFO] Connected to localhost:9092 for producing
+2019-07-11 12:11:32 SyncProducer [INFO] Disconnecting from localhost:9092
+2019-07-11 12:11:32 CoordinatorStreamSystemConsumer [INFO] Got metadata {__samza_coordinator_SamzaTask_1=SystemStreamMetadata [streamName=__samza_coordinator_SamzaTask_1, partitionMetadata={Partition [partition=0]=SystemStreamPartitionMetadata [oldestOffset=0, newestOffset=114, upcomingOffset=115]}]}
+2019-07-11 12:11:32 CoordinatorStreamSystemConsumer [INFO] Starting coordinator stream system consumer.
+2019-07-11 12:11:32 KafkaSystemConsumer [INFO] Refreshing brokers for: Map([__samza_coordinator_SamzaTask_1,0] -> 0)
+2019-07-11 12:11:32 BrokerProxy [INFO] Creating new SimpleConsumer for host 172.16.0.151:9092 for system kafka
+2019-07-11 12:11:32 GetOffset [INFO] Validating offset 0 for topic and partition [__samza_coordinator_SamzaTask_1,0]
+2019-07-11 12:11:32 GetOffset [INFO] Able to successfully read from offset 0 for topic and partition [__samza_coordinator_SamzaTask_1,0]. Using it to instantiate consumer.
+2019-07-11 12:11:32 BrokerProxy [INFO] Starting BrokerProxy for 172.16.0.151:9092
+2019-07-11 12:11:32 CoordinatorStreamSystemConsumer [INFO] Bootstrapping configuration from coordinator stream.
+2019-07-11 12:11:33 CoordinatorStreamSystemConsumer [INFO] Stopping coordinator stream system consumer.
+2019-07-11 12:11:33 BrokerProxy [INFO] Shutting down BrokerProxy for 172.16.0.151:9092
+2019-07-11 12:11:33 BrokerProxy [INFO] closing simple consumer...
+2019-07-11 12:11:33 BrokerProxy [INFO] Shutting down due to interrupt.
+2019-07-11 12:11:34 JobRunner [INFO] Deleting old configs that are no longer defined: Set()
+2019-07-11 12:11:34 CoordinatorStreamSystemProducer [INFO] Stopping coordinator stream producer.
+2019-07-11 12:11:34 KafkaSystemProducer [INFO] Stopping producer for system: kafka
+2019-07-11 12:11:34 KafkaProducer [INFO] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2019-07-11 12:11:34 ClientHelper [INFO] trying to connect to RM 127.0.0.1:8032
+2019-07-11 12:11:34 RMProxy [INFO] Connecting to ResourceManager at /127.0.0.1:8032
+2019-07-11 12:11:34 NativeCodeLoader [WARN] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-11 12:11:34 YarnJob [INFO] Inside YarnJob: fwk_path is , ver is STABLE use it directly 
+2019-07-11 12:11:34 ClientHelper [INFO] preparing to request resources for app id application_1562827016562_0002
+2019-07-11 12:11:34 YarnJobUtil$ [INFO] No staging dir exists
+2019-07-15 14:46:39 JobRunner [INFO] job factory: org.apache.samza.job.yarn.YarnJobFactory
+2019-07-15 14:46:39 VerifiableProperties [INFO] Verifying properties
+2019-07-15 14:46:39 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 14:46:39 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 14:46:39 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-b34331f5-8d5e-47de-9a4a-cbe63de1939b
+2019-07-15 14:46:39 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 14:46:39 VerifiableProperties [INFO] Verifying properties
+2019-07-15 14:46:39 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 14:46:39 VerifiableProperties [INFO] Property client.id is overridden to samza_consumer-SamzaTask-1
+2019-07-15 14:46:39 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-c2399b5e-aa39-464b-8c85-6f431754832c
+2019-07-15 14:46:39 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 14:46:39 VerifiableProperties [INFO] Verifying properties
+2019-07-15 14:46:39 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 14:46:39 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 14:46:39 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-4d4ba2b6-3f9c-45cb-a603-5eb1aa3edf39
+2019-07-15 14:46:39 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 14:46:39 VerifiableProperties [INFO] Verifying properties
+2019-07-15 14:46:39 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 14:46:39 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 14:46:39 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-80051fc1-1a80-42e4-8f3e-96b2fc3b6449
+2019-07-15 14:46:39 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 14:46:39 JobRunner [INFO] Creating coordinator stream
+2019-07-15 14:46:39 VerifiableProperties [INFO] Verifying properties
+2019-07-15 14:46:39 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 14:46:39 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 14:46:39 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-33f110f1-02d8-4ad4-8e00-5231df6fe361
+2019-07-15 14:46:39 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 14:46:39 KafkaSystemAdmin [INFO] Create topic __samza_coordinator_SamzaTask_1 in system kafka
+2019-07-15 14:46:39 ZkEventThread [INFO] Starting ZkClient event thread.
+2019-07-15 14:46:44 ZooKeeper [INFO] Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2019-07-15 14:46:44 ZooKeeper [INFO] Client environment:host.name=172.16.0.151
+2019-07-15 14:46:44 ZooKeeper [INFO] Client environment:java.version=1.8.0_202
+2019-07-15 14:46:44 ZooKeeper [INFO] Client environment:java.vendor=Oracle Corporation
+2019-07-15 14:46:44 ZooKeeper [INFO] Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+2019-07-15 14:46:44 ZooKeeper [INFO] Client environment:java.class.path=/Users/ishawakankar/.samza/conf:pathing.jar
+2019-07-15 14:46:44 ZooKeeper [INFO] Client environment:java.library.path=/Users/ishawakankar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2019-07-15 14:46:44 ZooKeeper [INFO] Client environment:java.io.tmpdir=/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/deploy/samza/tmp
+2019-07-15 14:46:44 ZooKeeper [INFO] Client environment:java.compiler=<NA>
+2019-07-15 14:46:44 ZooKeeper [INFO] Client environment:os.name=Mac OS X
+2019-07-15 14:46:44 ZooKeeper [INFO] Client environment:os.arch=x86_64
+2019-07-15 14:46:44 ZooKeeper [INFO] Client environment:os.version=10.14.5
+2019-07-15 14:46:44 ZooKeeper [INFO] Client environment:user.name=ishawakankar
+2019-07-15 14:46:44 ZooKeeper [INFO] Client environment:user.home=/Users/ishawakankar
+2019-07-15 14:46:44 ZooKeeper [INFO] Client environment:user.dir=/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/deploy/samza
+2019-07-15 14:46:44 ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@1649b0e6
+2019-07-15 14:46:44 ZkClient [INFO] Waiting for keeper state SyncConnected
+2019-07-15 14:46:44 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-07-15 14:46:44 ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2019-07-15 14:46:44 ClientCnxn [INFO] Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x1000275e9270004, negotiated timeout = 6000
+2019-07-15 14:46:44 ZkClient [INFO] zookeeper state changed (SyncConnected)
+2019-07-15 14:46:45 AdminUtils$ [INFO] Topic creation {"version":1,"partitions":{"0":[0]}}
+2019-07-15 14:46:45 ZkEventThread [INFO] Terminate ZkClient event thread.
+2019-07-15 14:46:45 ClientCnxn [INFO] EventThread shut down
+2019-07-15 14:46:45 ZooKeeper [INFO] Session: 0x1000275e9270004 closed
+2019-07-15 14:46:45 JobRunner [INFO] Created coordinator stream __samza_coordinator_SamzaTask_1.
+2019-07-15 14:46:45 JobRunner [INFO] Storing config in coordinator stream.
+2019-07-15 14:46:45 CoordinatorStreamSystemProducer [INFO] Starting coordinator stream producer.
+2019-07-15 14:46:45 ProducerConfig [INFO] ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = samza_producer-SamzaTask-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	linger.ms = 10
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 1
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2019-07-15 14:46:45 AppInfoParser [INFO] Kafka version : 0.11.0.2
+2019-07-15 14:46:45 AppInfoParser [INFO] Kafka commitId : 73be1e1168f91ee2
+2019-07-15 14:49:10 JobRunner [INFO] Loading old config from coordinator stream.
+2019-07-15 14:49:10 VerifiableProperties [INFO] Verifying properties
+2019-07-15 14:49:10 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 14:49:10 VerifiableProperties [INFO] Property metadata.broker.list is overridden to localhost:9092
+2019-07-15 14:49:10 VerifiableProperties [INFO] Property request.timeout.ms is overridden to 30000
+2019-07-15 14:49:10 ClientUtils$ [INFO] Fetching metadata from broker BrokerEndPoint(0,localhost,9092) with correlation id 0 for 1 topic(s) Set(__samza_coordinator_SamzaTask_1)
+2019-07-15 14:49:10 SyncProducer [INFO] Connected to localhost:9092 for producing
+2019-07-15 14:49:10 SyncProducer [INFO] Disconnecting from localhost:9092
+2019-07-15 14:49:10 CoordinatorStreamSystemConsumer [INFO] Got metadata {__samza_coordinator_SamzaTask_1=SystemStreamMetadata [streamName=__samza_coordinator_SamzaTask_1, partitionMetadata={Partition [partition=0]=SystemStreamPartitionMetadata [oldestOffset=0, newestOffset=28, upcomingOffset=29]}]}
+2019-07-15 14:49:10 CoordinatorStreamSystemConsumer [INFO] Starting coordinator stream system consumer.
+2019-07-15 14:49:10 KafkaSystemConsumer [INFO] Refreshing brokers for: Map([__samza_coordinator_SamzaTask_1,0] -> 0)
+2019-07-15 14:49:10 BrokerProxy [INFO] Creating new SimpleConsumer for host 172.16.0.151:9092 for system kafka
+2019-07-15 14:49:10 GetOffset [INFO] Validating offset 0 for topic and partition [__samza_coordinator_SamzaTask_1,0]
+2019-07-15 14:49:10 GetOffset [INFO] Able to successfully read from offset 0 for topic and partition [__samza_coordinator_SamzaTask_1,0]. Using it to instantiate consumer.
+2019-07-15 14:49:10 BrokerProxy [INFO] Starting BrokerProxy for 172.16.0.151:9092
+2019-07-15 14:49:10 CoordinatorStreamSystemConsumer [INFO] Bootstrapping configuration from coordinator stream.
+2019-07-15 14:49:12 CoordinatorStreamSystemConsumer [INFO] Stopping coordinator stream system consumer.
+2019-07-15 14:49:12 BrokerProxy [INFO] Shutting down BrokerProxy for 172.16.0.151:9092
+2019-07-15 14:49:12 BrokerProxy [INFO] closing simple consumer...
+2019-07-15 14:49:12 DefaultFetchSimpleConsumer [INFO] Reconnect due to error:
+java.nio.channels.ClosedChannelException
+	at kafka.network.BlockingChannel.send(BlockingChannel.scala:112)
+	at kafka.consumer.SimpleConsumer.liftedTree1$1(SimpleConsumer.scala:88)
+	at kafka.consumer.SimpleConsumer.kafka$consumer$SimpleConsumer$$sendRequest(SimpleConsumer.scala:86)
+	at kafka.consumer.SimpleConsumer$$anonfun$fetch$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(SimpleConsumer.scala:135)
+	at kafka.consumer.SimpleConsumer$$anonfun$fetch$1$$anonfun$apply$mcV$sp$1.apply(SimpleConsumer.scala:135)
+	at kafka.consumer.SimpleConsumer$$anonfun$fetch$1$$anonfun$apply$mcV$sp$1.apply(SimpleConsumer.scala:135)
+	at kafka.metrics.KafkaTimer.time(KafkaTimer.scala:31)
+	at kafka.consumer.SimpleConsumer$$anonfun$fetch$1.apply$mcV$sp(SimpleConsumer.scala:134)
+	at kafka.consumer.SimpleConsumer$$anonfun$fetch$1.apply(SimpleConsumer.scala:134)
+	at kafka.consumer.SimpleConsumer$$anonfun$fetch$1.apply(SimpleConsumer.scala:134)
+	at kafka.metrics.KafkaTimer.time(KafkaTimer.scala:31)
+	at kafka.consumer.SimpleConsumer.fetch(SimpleConsumer.scala:133)
+	at org.apache.samza.system.kafka.DefaultFetchSimpleConsumer.fetch(DefaultFetchSimpleConsumer.scala:48)
+	at org.apache.samza.system.kafka.DefaultFetchSimpleConsumer.defaultFetch(DefaultFetchSimpleConsumer.scala:41)
+	at org.apache.samza.system.kafka.BrokerProxy.org$apache$samza$system$kafka$BrokerProxy$$fetchMessages(BrokerProxy.scala:172)
+	at org.apache.samza.system.kafka.BrokerProxy$$anon$1$$anonfun$run$1.apply(BrokerProxy.scala:140)
+	at org.apache.samza.system.kafka.BrokerProxy$$anon$1$$anonfun$run$1.apply(BrokerProxy.scala:127)
+	at org.apache.samza.util.ExponentialSleepStrategy.run(ExponentialSleepStrategy.scala:90)
+	at org.apache.samza.system.kafka.BrokerProxy$$anon$1.run(BrokerProxy.scala:126)
+	at java.lang.Thread.run(Thread.java:748)
+2019-07-15 14:49:12 BrokerProxy [WARN] Restarting consumer due to java.nio.channels.ClosedChannelException. Releasing ownership of all partitions, and restarting consumer. Turn on debugging to get a full stack trace.
+2019-07-15 14:49:12 KafkaSystemConsumer [INFO] Abdicating for [__samza_coordinator_SamzaTask_1,0]
+2019-07-15 14:49:12 KafkaSystemConsumer [INFO] Refreshing brokers for: Map([__samza_coordinator_SamzaTask_1,0] -> 29)
+2019-07-15 14:49:12 BrokerProxy [INFO] Shutting down due to interrupt.
+2019-07-15 14:49:12 JobRunner [INFO] Deleting old configs that are no longer defined: Set()
+2019-07-15 14:49:12 CoordinatorStreamSystemProducer [INFO] Stopping coordinator stream producer.
+2019-07-15 14:49:12 KafkaSystemProducer [INFO] Stopping producer for system: kafka
+2019-07-15 14:49:12 KafkaProducer [INFO] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2019-07-15 14:49:12 ClientHelper [INFO] trying to connect to RM 127.0.0.1:8032
+2019-07-15 14:49:12 RMProxy [INFO] Connecting to ResourceManager at /127.0.0.1:8032
+2019-07-15 14:49:12 NativeCodeLoader [WARN] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-15 14:49:12 YarnJob [INFO] Inside YarnJob: fwk_path is , ver is STABLE use it directly 
+2019-07-15 14:49:14 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:49:15 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:49:16 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:49:17 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:49:18 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:49:19 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:49:20 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:49:21 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:49:22 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:49:23 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:49:59 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:50:00 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:50:01 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:50:02 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:50:03 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:50:04 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:50:05 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:50:06 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:50:07 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:50:08 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:50:44 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:50:45 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:50:46 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:50:47 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:50:48 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:50:49 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:50:50 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:50:51 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:50:52 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:50:53 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:51:29 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:51:30 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:51:31 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:51:32 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:51:33 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:51:34 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:51:35 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:51:36 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:51:37 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:51:38 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:52:14 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:52:15 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:52:16 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:52:17 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:52:18 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:52:19 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:52:20 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:52:21 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:52:22 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:52:23 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:52:59 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:53:00 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:53:01 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:53:02 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:53:03 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:53:04 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:53:05 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:53:06 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:53:07 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:53:08 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:53:44 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:53:45 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:53:46 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:53:47 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:53:48 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:53:49 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:53:50 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:53:51 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:53:52 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:53:53 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:54:29 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:54:30 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:54:31 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:54:32 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:54:33 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:54:34 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:54:35 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:54:36 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:54:37 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 14:54:38 Client [INFO] Retrying connect to server: localhost/127.0.0.1:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2019-07-15 15:04:33 JobRunner [INFO] job factory: org.apache.samza.job.yarn.YarnJobFactory
+2019-07-15 15:04:33 VerifiableProperties [INFO] Verifying properties
+2019-07-15 15:04:33 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 15:04:33 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 15:04:33 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-c34ac0ee-27d8-40db-8f82-0a7b5659a5f2
+2019-07-15 15:04:33 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 15:04:33 VerifiableProperties [INFO] Verifying properties
+2019-07-15 15:04:33 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 15:04:33 VerifiableProperties [INFO] Property client.id is overridden to samza_consumer-SamzaTask-1
+2019-07-15 15:04:33 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-e6c45a78-c7c8-4e1a-bfbc-443afc1f260b
+2019-07-15 15:04:33 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 15:04:33 VerifiableProperties [INFO] Verifying properties
+2019-07-15 15:04:33 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 15:04:33 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 15:04:33 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-24f73123-1e4e-4de5-8a6a-79c28602b3f3
+2019-07-15 15:04:33 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 15:04:33 VerifiableProperties [INFO] Verifying properties
+2019-07-15 15:04:33 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 15:04:33 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 15:04:33 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-56a0ef4b-7c9c-4c52-a7ea-d34df5d192a4
+2019-07-15 15:04:33 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 15:04:33 JobRunner [INFO] Creating coordinator stream
+2019-07-15 15:04:33 VerifiableProperties [INFO] Verifying properties
+2019-07-15 15:04:33 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 15:04:33 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 15:04:33 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-33600be0-61da-4560-a35c-a93bf53af194
+2019-07-15 15:04:33 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 15:04:33 KafkaSystemAdmin [INFO] Create topic __samza_coordinator_SamzaTask_1 in system kafka
+2019-07-15 15:04:34 ZkEventThread [INFO] Starting ZkClient event thread.
+2019-07-15 15:23:11 JobRunner [INFO] job factory: org.apache.samza.job.yarn.YarnJobFactory
+2019-07-15 15:23:11 VerifiableProperties [INFO] Verifying properties
+2019-07-15 15:23:11 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 15:23:11 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 15:23:11 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-9ed71c28-bcae-4640-b574-96e7e7ec0458
+2019-07-15 15:23:11 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 15:23:11 VerifiableProperties [INFO] Verifying properties
+2019-07-15 15:23:11 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 15:23:11 VerifiableProperties [INFO] Property client.id is overridden to samza_consumer-SamzaTask-1
+2019-07-15 15:23:11 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-ef182b9c-b3c1-451f-9b73-3d6ede9e2e36
+2019-07-15 15:23:11 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 15:23:11 VerifiableProperties [INFO] Verifying properties
+2019-07-15 15:23:11 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 15:23:11 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 15:23:11 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-d7046459-2ed3-4489-87a3-7847753243af
+2019-07-15 15:23:11 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 15:23:11 VerifiableProperties [INFO] Verifying properties
+2019-07-15 15:23:11 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 15:23:11 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 15:23:11 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-06b1e893-a8ce-4188-9e22-ae4199644df9
+2019-07-15 15:23:11 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 15:23:11 JobRunner [INFO] Creating coordinator stream
+2019-07-15 15:23:11 VerifiableProperties [INFO] Verifying properties
+2019-07-15 15:23:11 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 15:23:11 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 15:23:11 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-c83b56c6-4092-4cdb-940f-dcc7eccb14f0
+2019-07-15 15:23:11 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 15:23:11 KafkaSystemAdmin [INFO] Create topic __samza_coordinator_SamzaTask_1 in system kafka
+2019-07-15 15:23:11 ZkEventThread [INFO] Starting ZkClient event thread.
+2019-07-15 15:23:16 ZooKeeper [INFO] Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2019-07-15 15:23:16 ZooKeeper [INFO] Client environment:host.name=172.16.0.151
+2019-07-15 15:23:16 ZooKeeper [INFO] Client environment:java.version=1.8.0_202
+2019-07-15 15:23:16 ZooKeeper [INFO] Client environment:java.vendor=Oracle Corporation
+2019-07-15 15:23:16 ZooKeeper [INFO] Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+2019-07-15 15:23:16 ZooKeeper [INFO] Client environment:java.class.path=/Users/ishawakankar/.samza/conf:pathing.jar
+2019-07-15 15:23:16 ZooKeeper [INFO] Client environment:java.library.path=/Users/ishawakankar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2019-07-15 15:23:16 ZooKeeper [INFO] Client environment:java.io.tmpdir=/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/deploy/samza/tmp
+2019-07-15 15:23:16 ZooKeeper [INFO] Client environment:java.compiler=<NA>
+2019-07-15 15:23:16 ZooKeeper [INFO] Client environment:os.name=Mac OS X
+2019-07-15 15:23:16 ZooKeeper [INFO] Client environment:os.arch=x86_64
+2019-07-15 15:23:16 ZooKeeper [INFO] Client environment:os.version=10.14.5
+2019-07-15 15:23:16 ZooKeeper [INFO] Client environment:user.name=ishawakankar
+2019-07-15 15:23:16 ZooKeeper [INFO] Client environment:user.home=/Users/ishawakankar
+2019-07-15 15:23:16 ZooKeeper [INFO] Client environment:user.dir=/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/deploy/samza
+2019-07-15 15:23:16 ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@1649b0e6
+2019-07-15 15:23:16 ZkClient [INFO] Waiting for keeper state SyncConnected
+2019-07-15 15:23:16 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-07-15 15:23:16 ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2019-07-15 15:23:16 ClientCnxn [INFO] Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x1000275e9270006, negotiated timeout = 6000
+2019-07-15 15:23:16 ZkClient [INFO] zookeeper state changed (SyncConnected)
+2019-07-15 15:23:16 ZkEventThread [INFO] Terminate ZkClient event thread.
+2019-07-15 15:23:16 ZooKeeper [INFO] Session: 0x1000275e9270006 closed
+2019-07-15 15:23:16 ClientCnxn [INFO] EventThread shut down
+2019-07-15 15:23:16 JobRunner [INFO] Coordinator stream __samza_coordinator_SamzaTask_1 already exists.
+2019-07-15 15:23:16 JobRunner [INFO] Storing config in coordinator stream.
+2019-07-15 15:23:16 CoordinatorStreamSystemProducer [INFO] Starting coordinator stream producer.
+2019-07-15 15:23:16 ProducerConfig [INFO] ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = samza_producer-SamzaTask-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	linger.ms = 10
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 1
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2019-07-15 15:23:16 AppInfoParser [INFO] Kafka version : 0.11.0.2
+2019-07-15 15:23:16 AppInfoParser [INFO] Kafka commitId : 73be1e1168f91ee2
+2019-07-15 15:25:42 JobRunner [INFO] Loading old config from coordinator stream.
+2019-07-15 15:25:42 VerifiableProperties [INFO] Verifying properties
+2019-07-15 15:25:42 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 15:25:42 VerifiableProperties [INFO] Property metadata.broker.list is overridden to localhost:9092
+2019-07-15 15:25:42 VerifiableProperties [INFO] Property request.timeout.ms is overridden to 30000
+2019-07-15 15:25:42 ClientUtils$ [INFO] Fetching metadata from broker BrokerEndPoint(0,localhost,9092) with correlation id 0 for 1 topic(s) Set(__samza_coordinator_SamzaTask_1)
+2019-07-15 15:25:42 SyncProducer [INFO] Connected to localhost:9092 for producing
+2019-07-15 15:25:42 SyncProducer [INFO] Disconnecting from localhost:9092
+2019-07-15 15:25:42 CoordinatorStreamSystemConsumer [INFO] Got metadata {__samza_coordinator_SamzaTask_1=SystemStreamMetadata [streamName=__samza_coordinator_SamzaTask_1, partitionMetadata={Partition [partition=0]=SystemStreamPartitionMetadata [oldestOffset=0, newestOffset=57, upcomingOffset=58]}]}
+2019-07-15 15:25:42 CoordinatorStreamSystemConsumer [INFO] Starting coordinator stream system consumer.
+2019-07-15 15:25:42 KafkaSystemConsumer [INFO] Refreshing brokers for: Map([__samza_coordinator_SamzaTask_1,0] -> 0)
+2019-07-15 15:25:42 BrokerProxy [INFO] Creating new SimpleConsumer for host 172.16.0.151:9092 for system kafka
+2019-07-15 15:25:42 GetOffset [INFO] Validating offset 0 for topic and partition [__samza_coordinator_SamzaTask_1,0]
+2019-07-15 15:25:42 GetOffset [INFO] Able to successfully read from offset 0 for topic and partition [__samza_coordinator_SamzaTask_1,0]. Using it to instantiate consumer.
+2019-07-15 15:25:42 BrokerProxy [INFO] Starting BrokerProxy for 172.16.0.151:9092
+2019-07-15 15:25:42 CoordinatorStreamSystemConsumer [INFO] Bootstrapping configuration from coordinator stream.
+2019-07-15 15:25:43 CoordinatorStreamSystemConsumer [INFO] Stopping coordinator stream system consumer.
+2019-07-15 15:25:43 BrokerProxy [INFO] Shutting down BrokerProxy for 172.16.0.151:9092
+2019-07-15 15:25:43 BrokerProxy [INFO] closing simple consumer...
+2019-07-15 15:25:43 BrokerProxy [INFO] Shutting down due to interrupt.
+2019-07-15 15:25:43 JobRunner [INFO] Deleting old configs that are no longer defined: Set()
+2019-07-15 15:25:43 CoordinatorStreamSystemProducer [INFO] Stopping coordinator stream producer.
+2019-07-15 15:25:43 KafkaSystemProducer [INFO] Stopping producer for system: kafka
+2019-07-15 15:25:43 KafkaProducer [INFO] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2019-07-15 15:25:44 ClientHelper [INFO] trying to connect to RM 127.0.0.1:8032
+2019-07-15 15:25:44 RMProxy [INFO] Connecting to ResourceManager at /127.0.0.1:8032
+2019-07-15 15:25:44 NativeCodeLoader [WARN] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-15 15:25:44 YarnJob [INFO] Inside YarnJob: fwk_path is , ver is STABLE use it directly 
+2019-07-15 15:25:44 ClientHelper [INFO] preparing to request resources for app id application_1563184343330_0001
+2019-07-15 15:25:44 YarnJobUtil$ [INFO] No staging dir exists
+2019-07-15 15:28:46 JobRunner [INFO] job factory: org.apache.samza.job.yarn.YarnJobFactory
+2019-07-15 15:28:46 VerifiableProperties [INFO] Verifying properties
+2019-07-15 15:28:46 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 15:28:46 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 15:28:46 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-ebca61af-7911-4481-968b-0698006cfd26
+2019-07-15 15:28:46 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 15:28:46 VerifiableProperties [INFO] Verifying properties
+2019-07-15 15:28:46 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 15:28:46 VerifiableProperties [INFO] Property client.id is overridden to samza_consumer-SamzaTask-1
+2019-07-15 15:28:46 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-0cb7292e-ffed-4d8e-980e-53263ff56ce0
+2019-07-15 15:28:46 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 15:28:46 VerifiableProperties [INFO] Verifying properties
+2019-07-15 15:28:46 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 15:28:46 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 15:28:46 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-a5cbdcd5-9fd7-44b0-9cd1-75dd8c6e5f0a
+2019-07-15 15:28:46 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 15:28:46 VerifiableProperties [INFO] Verifying properties
+2019-07-15 15:28:46 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 15:28:46 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 15:28:46 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-be1434c6-3522-4983-b030-84c362be467b
+2019-07-15 15:28:46 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 15:28:46 JobRunner [INFO] Creating coordinator stream
+2019-07-15 15:28:46 VerifiableProperties [INFO] Verifying properties
+2019-07-15 15:28:46 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 15:28:46 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 15:28:46 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-9003ae52-3110-42e0-978d-36f2a979260d
+2019-07-15 15:28:46 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 15:28:46 KafkaSystemAdmin [INFO] Create topic __samza_coordinator_SamzaTask_1 in system kafka
+2019-07-15 15:28:46 ZkEventThread [INFO] Starting ZkClient event thread.
+2019-07-15 15:28:51 ZooKeeper [INFO] Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2019-07-15 15:28:51 ZooKeeper [INFO] Client environment:host.name=172.16.0.151
+2019-07-15 15:28:51 ZooKeeper [INFO] Client environment:java.version=1.8.0_202
+2019-07-15 15:28:51 ZooKeeper [INFO] Client environment:java.vendor=Oracle Corporation
+2019-07-15 15:28:51 ZooKeeper [INFO] Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+2019-07-15 15:28:51 ZooKeeper [INFO] Client environment:java.class.path=/Users/ishawakankar/.samza/conf:pathing.jar
+2019-07-15 15:28:51 ZooKeeper [INFO] Client environment:java.library.path=/Users/ishawakankar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2019-07-15 15:28:51 ZooKeeper [INFO] Client environment:java.io.tmpdir=/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/deploy/samza/tmp
+2019-07-15 15:28:51 ZooKeeper [INFO] Client environment:java.compiler=<NA>
+2019-07-15 15:28:51 ZooKeeper [INFO] Client environment:os.name=Mac OS X
+2019-07-15 15:28:51 ZooKeeper [INFO] Client environment:os.arch=x86_64
+2019-07-15 15:28:51 ZooKeeper [INFO] Client environment:os.version=10.14.5
+2019-07-15 15:28:51 ZooKeeper [INFO] Client environment:user.name=ishawakankar
+2019-07-15 15:28:51 ZooKeeper [INFO] Client environment:user.home=/Users/ishawakankar
+2019-07-15 15:28:51 ZooKeeper [INFO] Client environment:user.dir=/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/deploy/samza
+2019-07-15 15:28:51 ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@1649b0e6
+2019-07-15 15:28:51 ZkClient [INFO] Waiting for keeper state SyncConnected
+2019-07-15 15:28:51 ClientCnxn [INFO] Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-07-15 15:28:51 ClientCnxn [INFO] Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2019-07-15 15:28:51 ClientCnxn [INFO] Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x1000275e9270007, negotiated timeout = 6000
+2019-07-15 15:28:51 ZkClient [INFO] zookeeper state changed (SyncConnected)
+2019-07-15 15:28:52 ZkEventThread [INFO] Terminate ZkClient event thread.
+2019-07-15 15:28:52 ClientCnxn [INFO] EventThread shut down
+2019-07-15 15:28:52 ZooKeeper [INFO] Session: 0x1000275e9270007 closed
+2019-07-15 15:28:52 JobRunner [INFO] Coordinator stream __samza_coordinator_SamzaTask_1 already exists.
+2019-07-15 15:28:52 JobRunner [INFO] Storing config in coordinator stream.
+2019-07-15 15:28:52 CoordinatorStreamSystemProducer [INFO] Starting coordinator stream producer.
+2019-07-15 15:28:52 ProducerConfig [INFO] ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = samza_producer-SamzaTask-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	linger.ms = 10
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 1
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2019-07-15 15:28:52 AppInfoParser [INFO] Kafka version : 0.11.0.2
+2019-07-15 15:28:52 AppInfoParser [INFO] Kafka commitId : 73be1e1168f91ee2
+2019-07-15 15:31:12 JobRunner [INFO] Loading old config from coordinator stream.
+2019-07-15 15:31:12 VerifiableProperties [INFO] Verifying properties
+2019-07-15 15:31:12 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 15:31:12 VerifiableProperties [INFO] Property metadata.broker.list is overridden to localhost:9092
+2019-07-15 15:31:12 VerifiableProperties [INFO] Property request.timeout.ms is overridden to 30000
+2019-07-15 15:31:12 ClientUtils$ [INFO] Fetching metadata from broker BrokerEndPoint(0,localhost,9092) with correlation id 0 for 1 topic(s) Set(__samza_coordinator_SamzaTask_1)
+2019-07-15 15:31:12 SyncProducer [INFO] Connected to localhost:9092 for producing
+2019-07-15 15:31:12 SyncProducer [INFO] Disconnecting from localhost:9092
+2019-07-15 15:31:12 CoordinatorStreamSystemConsumer [INFO] Got metadata {__samza_coordinator_SamzaTask_1=SystemStreamMetadata [streamName=__samza_coordinator_SamzaTask_1, partitionMetadata={Partition [partition=0]=SystemStreamPartitionMetadata [oldestOffset=0, newestOffset=85, upcomingOffset=86]}]}
+2019-07-15 15:31:12 CoordinatorStreamSystemConsumer [INFO] Starting coordinator stream system consumer.
+2019-07-15 15:31:12 KafkaSystemConsumer [INFO] Refreshing brokers for: Map([__samza_coordinator_SamzaTask_1,0] -> 0)
+2019-07-15 15:31:12 BrokerProxy [INFO] Creating new SimpleConsumer for host 172.16.0.151:9092 for system kafka
+2019-07-15 15:31:12 GetOffset [INFO] Validating offset 0 for topic and partition [__samza_coordinator_SamzaTask_1,0]
+2019-07-15 15:31:12 GetOffset [INFO] Able to successfully read from offset 0 for topic and partition [__samza_coordinator_SamzaTask_1,0]. Using it to instantiate consumer.
+2019-07-15 15:31:12 BrokerProxy [INFO] Starting BrokerProxy for 172.16.0.151:9092
+2019-07-15 15:31:12 CoordinatorStreamSystemConsumer [INFO] Bootstrapping configuration from coordinator stream.
+2019-07-15 15:31:13 CoordinatorStreamSystemConsumer [INFO] Stopping coordinator stream system consumer.
+2019-07-15 15:31:13 BrokerProxy [INFO] Shutting down BrokerProxy for 172.16.0.151:9092
+2019-07-15 15:31:13 BrokerProxy [INFO] closing simple consumer...
+2019-07-15 15:31:14 BrokerProxy [INFO] Shutting down due to interrupt.
+2019-07-15 15:31:14 JobRunner [INFO] Deleting old configs that are no longer defined: Set(yarn.container.memory.mb)
+2019-07-15 15:31:19 CoordinatorStreamSystemProducer [INFO] Stopping coordinator stream producer.
+2019-07-15 15:31:19 KafkaSystemProducer [INFO] Stopping producer for system: kafka
+2019-07-15 15:31:19 KafkaProducer [INFO] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2019-07-15 15:31:19 ClientHelper [INFO] trying to connect to RM 127.0.0.1:8032
+2019-07-15 15:31:19 RMProxy [INFO] Connecting to ResourceManager at /127.0.0.1:8032
+2019-07-15 15:31:19 NativeCodeLoader [WARN] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-15 15:31:19 YarnJob [INFO] Inside YarnJob: fwk_path is , ver is STABLE use it directly 
+2019-07-15 15:31:19 ClientHelper [INFO] preparing to request resources for app id application_1563184343330_0002
+2019-07-15 15:31:19 ClientHelper [INFO] set package url to scheme: "file" port: -1 file: "/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/target/samza-job-1.0-SNAPSHOT-distribution.tar.gz" for application_1563184343330_0002
+2019-07-15 15:31:19 ClientHelper [INFO] set package size to 74360533 for application_1563184343330_0002
+2019-07-15 15:31:19 ClientHelper [INFO] set memory request to 1024 for application_1563184343330_0002
+2019-07-15 15:31:19 ClientHelper [INFO] set cpu core request to 1 for application_1563184343330_0002
+2019-07-15 15:31:19 ClientHelper [INFO] set command to List(export SAMZA_LOG_DIR=<LOG_DIR> && ln -sfn <LOG_DIR> logs && exec ./__package/bin/run-jc.sh 1>logs/stdout 2>logs/stderr) for application_1563184343330_0002
+2019-07-15 15:31:19 ClientHelper [INFO] set app ID to application_1563184343330_0002
+2019-07-15 15:31:19 ClientHelper [INFO] localResources is: Map(__package -> resource { scheme: "file" port: -1 file: "/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/target/samza-job-1.0-SNAPSHOT-distribution.tar.gz" } size: 74360533 timestamp: 1563184668000 type: ARCHIVE visibility: APPLICATION)
+2019-07-15 15:31:19 ClientHelper [INFO] set local resources on application master for application_1563184343330_0002
+2019-07-15 15:31:19 ClientHelper [INFO] set environment variables to Map(SAMZA_COORDINATOR_SYSTEM_CONFIG -> {\"systems.kafka.consumer.zookeeper.connect\":\"localhost:2181\",\"systems.kafka.samza.key.serde\":\"string\",\"systems.kafka.samza.factory\":\"org.apache.samza.system.kafka.KafkaSystemFactory\",\"job.coordinator.monitor-partition-change.frequency.ms\":\"300000\",\"job.coordinator.system\":\"kafka\",\"systems.kafka.streams.metrics.samza.msg.serde\":\"metrics\",\"job.id\":\"1\",\"systems.kafka.samza.offset.default\":\"oldest\",\"systems.kafka.consumer.auto.offset.reset\":\"smallest\",\"systems.kafka.samza.msg.serde\":\"string\",\"job.name\":\"SamzaTask\",\"systems.kafka.producer.bootstrap.servers\":\"localhost:9092\"}, JAVA_OPTS -> ) for application_1563184343330_0002
+2019-07-15 15:31:19 ClientHelper [INFO] submitting application request for application_1563184343330_0002
+2019-07-15 15:31:30 YarnClientImpl [INFO] Submitted application application_1563184343330_0002
+2019-07-15 15:31:30 JobRunner [INFO] waiting for job to start
+2019-07-15 15:31:30 YarnJob [INFO] Getting status for applicationId application_1563184343330_0002
+2019-07-15 15:31:35 ClientHelper [INFO] Got state: ACCEPTED, final status: UNDEFINED
+2019-07-15 15:31:35 JobRunner [INFO] job started successfully - Running
+2019-07-15 15:31:35 JobRunner [INFO] exiting
+2019-07-15 15:46:27 JobRunner [INFO] job factory: org.apache.samza.job.yarn.YarnJobFactory
+2019-07-15 15:46:27 VerifiableProperties [INFO] Verifying properties
+2019-07-15 15:46:27 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 15:46:27 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 15:46:27 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-67b7b5fd-49ca-4bda-b877-a1ad6976186d
+2019-07-15 15:46:27 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 15:46:27 VerifiableProperties [INFO] Verifying properties
+2019-07-15 15:46:27 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 15:46:27 VerifiableProperties [INFO] Property client.id is overridden to samza_consumer-SamzaTask-1
+2019-07-15 15:46:27 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-3b4a5446-cd8e-46dc-9d10-9dc36438e18b
+2019-07-15 15:46:27 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 15:46:27 VerifiableProperties [INFO] Verifying properties
+2019-07-15 15:46:27 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 15:46:27 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 15:46:27 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-db0a01f6-d123-422f-8d9c-567516714c92
+2019-07-15 15:46:27 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 15:46:27 VerifiableProperties [INFO] Verifying properties
+2019-07-15 15:46:27 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 15:46:27 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 15:46:27 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-8c9fca90-3cb1-4131-b700-d10006a5a15e
+2019-07-15 15:46:27 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 15:46:27 JobRunner [INFO] Creating coordinator stream
+2019-07-15 15:46:27 VerifiableProperties [INFO] Verifying properties
+2019-07-15 15:46:27 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 15:46:27 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 15:46:27 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-f4612dcd-f5c5-4502-9325-d71c85932917
+2019-07-15 15:46:27 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 15:46:27 KafkaSystemAdmin [INFO] Create topic __samza_coordinator_SamzaTask_1 in system kafka
+2019-07-15 15:46:28 ZkEventThread [INFO] Starting ZkClient event thread.
+2019-07-15 15:46:33 ZooKeeper [INFO] Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2019-07-15 15:46:33 ZooKeeper [INFO] Client environment:host.name=172.16.0.151
+2019-07-15 15:46:33 ZooKeeper [INFO] Client environment:java.version=1.8.0_202
+2019-07-15 15:46:33 ZooKeeper [INFO] Client environment:java.vendor=Oracle Corporation
+2019-07-15 15:46:33 ZooKeeper [INFO] Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+2019-07-15 15:46:33 ZooKeeper [INFO] Client environment:java.class.path=/Users/ishawakankar/.samza/conf:pathing.jar
+2019-07-15 15:46:33 ZooKeeper [INFO] Client environment:java.library.path=/Users/ishawakankar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2019-07-15 15:46:33 ZooKeeper [INFO] Client environment:java.io.tmpdir=/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/deploy/samza/tmp
+2019-07-15 15:46:33 ZooKeeper [INFO] Client environment:java.compiler=<NA>
+2019-07-15 15:46:33 ZooKeeper [INFO] Client environment:os.name=Mac OS X
+2019-07-15 15:46:33 ZooKeeper [INFO] Client environment:os.arch=x86_64
+2019-07-15 15:46:33 ZooKeeper [INFO] Client environment:os.version=10.14.5
+2019-07-15 15:46:33 ZooKeeper [INFO] Client environment:user.name=ishawakankar
+2019-07-15 15:46:33 ZooKeeper [INFO] Client environment:user.home=/Users/ishawakankar
+2019-07-15 15:46:33 ZooKeeper [INFO] Client environment:user.dir=/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/deploy/samza
+2019-07-15 15:46:33 ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@1649b0e6
+2019-07-15 15:46:33 ZkClient [INFO] Waiting for keeper state SyncConnected
+2019-07-15 15:46:33 ClientCnxn [INFO] Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-07-15 15:46:33 ClientCnxn [INFO] Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2019-07-15 15:46:33 ClientCnxn [INFO] Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x1000275e9270059, negotiated timeout = 6000
+2019-07-15 15:46:33 ZkClient [INFO] zookeeper state changed (SyncConnected)
+2019-07-15 15:46:33 ZkEventThread [INFO] Terminate ZkClient event thread.
+2019-07-15 15:46:33 ZooKeeper [INFO] Session: 0x1000275e9270059 closed
+2019-07-15 15:46:33 ClientCnxn [INFO] EventThread shut down
+2019-07-15 15:46:33 JobRunner [INFO] Coordinator stream __samza_coordinator_SamzaTask_1 already exists.
+2019-07-15 15:46:33 JobRunner [INFO] Storing config in coordinator stream.
+2019-07-15 15:46:33 CoordinatorStreamSystemProducer [INFO] Starting coordinator stream producer.
+2019-07-15 15:46:33 ProducerConfig [INFO] ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = samza_producer-SamzaTask-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	linger.ms = 10
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 1
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2019-07-15 15:46:33 AppInfoParser [INFO] Kafka version : 0.11.0.2
+2019-07-15 15:46:33 AppInfoParser [INFO] Kafka commitId : 73be1e1168f91ee2
+2019-07-15 15:48:58 JobRunner [INFO] Loading old config from coordinator stream.
+2019-07-15 15:48:58 VerifiableProperties [INFO] Verifying properties
+2019-07-15 15:48:58 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 15:48:58 VerifiableProperties [INFO] Property metadata.broker.list is overridden to localhost:9092
+2019-07-15 15:48:58 VerifiableProperties [INFO] Property request.timeout.ms is overridden to 30000
+2019-07-15 15:48:58 ClientUtils$ [INFO] Fetching metadata from broker BrokerEndPoint(0,localhost,9092) with correlation id 0 for 1 topic(s) Set(__samza_coordinator_SamzaTask_1)
+2019-07-15 15:48:58 SyncProducer [INFO] Connected to localhost:9092 for producing
+2019-07-15 15:48:58 SyncProducer [INFO] Disconnecting from localhost:9092
+2019-07-15 15:48:58 CoordinatorStreamSystemConsumer [INFO] Got metadata {__samza_coordinator_SamzaTask_1=SystemStreamMetadata [streamName=__samza_coordinator_SamzaTask_1, partitionMetadata={Partition [partition=0]=SystemStreamPartitionMetadata [oldestOffset=0, newestOffset=115, upcomingOffset=116]}]}
+2019-07-15 15:48:58 CoordinatorStreamSystemConsumer [INFO] Starting coordinator stream system consumer.
+2019-07-15 15:48:58 KafkaSystemConsumer [INFO] Refreshing brokers for: Map([__samza_coordinator_SamzaTask_1,0] -> 0)
+2019-07-15 15:48:58 BrokerProxy [INFO] Creating new SimpleConsumer for host 172.16.0.151:9092 for system kafka
+2019-07-15 15:48:58 GetOffset [INFO] Validating offset 0 for topic and partition [__samza_coordinator_SamzaTask_1,0]
+2019-07-15 15:48:58 GetOffset [INFO] Able to successfully read from offset 0 for topic and partition [__samza_coordinator_SamzaTask_1,0]. Using it to instantiate consumer.
+2019-07-15 15:48:58 BrokerProxy [INFO] Starting BrokerProxy for 172.16.0.151:9092
+2019-07-15 15:48:58 CoordinatorStreamSystemConsumer [INFO] Bootstrapping configuration from coordinator stream.
+2019-07-15 15:49:00 CoordinatorStreamSystemConsumer [INFO] Stopping coordinator stream system consumer.
+2019-07-15 15:49:00 BrokerProxy [INFO] Shutting down BrokerProxy for 172.16.0.151:9092
+2019-07-15 15:49:00 BrokerProxy [INFO] closing simple consumer...
+2019-07-15 15:49:00 BrokerProxy [INFO] Shutting down due to interrupt.
+2019-07-15 15:49:00 JobRunner [INFO] Deleting old configs that are no longer defined: Set()
+2019-07-15 15:49:00 CoordinatorStreamSystemProducer [INFO] Stopping coordinator stream producer.
+2019-07-15 15:49:00 KafkaSystemProducer [INFO] Stopping producer for system: kafka
+2019-07-15 15:49:00 KafkaProducer [INFO] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2019-07-15 15:49:00 ClientHelper [INFO] trying to connect to RM 127.0.0.1:8032
+2019-07-15 15:49:00 RMProxy [INFO] Connecting to ResourceManager at /127.0.0.1:8032
+2019-07-15 15:49:00 NativeCodeLoader [WARN] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-15 15:49:00 YarnJob [INFO] Inside YarnJob: fwk_path is , ver is STABLE use it directly 
+2019-07-15 15:49:00 ClientHelper [INFO] preparing to request resources for app id application_1563184343330_0003
+2019-07-15 15:49:00 ClientHelper [INFO] set package url to scheme: "file" port: -1 file: "/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/target/samza-job-1.0-SNAPSHOT-distribution.tar.gz" for application_1563184343330_0003
+2019-07-15 15:49:00 ClientHelper [INFO] set package size to 74360533 for application_1563184343330_0003
+2019-07-15 15:49:00 ClientHelper [INFO] set memory request to 1024 for application_1563184343330_0003
+2019-07-15 15:49:00 ClientHelper [INFO] set cpu core request to 1 for application_1563184343330_0003
+2019-07-15 15:49:00 ClientHelper [INFO] set command to List(export SAMZA_LOG_DIR=<LOG_DIR> && ln -sfn <LOG_DIR> logs && exec ./__package/bin/run-jc.sh 1>logs/stdout 2>logs/stderr) for application_1563184343330_0003
+2019-07-15 15:49:00 ClientHelper [INFO] set app ID to application_1563184343330_0003
+2019-07-15 15:49:00 ClientHelper [INFO] localResources is: Map(__package -> resource { scheme: "file" port: -1 file: "/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/target/samza-job-1.0-SNAPSHOT-distribution.tar.gz" } size: 74360533 timestamp: 1563184668000 type: ARCHIVE visibility: APPLICATION)
+2019-07-15 15:49:00 ClientHelper [INFO] set local resources on application master for application_1563184343330_0003
+2019-07-15 15:49:00 ClientHelper [INFO] set environment variables to Map(SAMZA_COORDINATOR_SYSTEM_CONFIG -> {\"systems.kafka.consumer.zookeeper.connect\":\"localhost:2181\",\"systems.kafka.samza.key.serde\":\"string\",\"systems.kafka.samza.factory\":\"org.apache.samza.system.kafka.KafkaSystemFactory\",\"job.coordinator.monitor-partition-change.frequency.ms\":\"300000\",\"job.coordinator.system\":\"kafka\",\"systems.kafka.streams.metrics.samza.msg.serde\":\"metrics\",\"job.id\":\"1\",\"systems.kafka.samza.offset.default\":\"oldest\",\"systems.kafka.consumer.auto.offset.reset\":\"smallest\",\"systems.kafka.samza.msg.serde\":\"string\",\"job.name\":\"SamzaTask\",\"systems.kafka.producer.bootstrap.servers\":\"localhost:9092\"}, JAVA_OPTS -> ) for application_1563184343330_0003
+2019-07-15 15:49:00 ClientHelper [INFO] submitting application request for application_1563184343330_0003
+2019-07-15 15:49:11 YarnClientImpl [INFO] Submitted application application_1563184343330_0003
+2019-07-15 15:49:11 JobRunner [INFO] waiting for job to start
+2019-07-15 15:49:11 YarnJob [INFO] Getting status for applicationId application_1563184343330_0003
+2019-07-15 15:49:16 ClientHelper [INFO] Got state: ACCEPTED, final status: UNDEFINED
+2019-07-15 15:49:16 JobRunner [INFO] job started successfully - Running
+2019-07-15 15:49:16 JobRunner [INFO] exiting
+2019-07-15 16:14:21 JobRunner [INFO] job factory: org.apache.samza.job.yarn.YarnJobFactory
+2019-07-15 16:14:22 VerifiableProperties [INFO] Verifying properties
+2019-07-15 16:14:22 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 16:14:22 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 16:14:22 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-ee89130a-21a3-4c1a-a962-5067bc18c8da
+2019-07-15 16:14:22 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 16:14:22 VerifiableProperties [INFO] Verifying properties
+2019-07-15 16:14:22 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 16:14:22 VerifiableProperties [INFO] Property client.id is overridden to samza_consumer-SamzaTask-1
+2019-07-15 16:14:22 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-99c5fb96-d151-48b8-b135-0d2fd9dc885b
+2019-07-15 16:14:22 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 16:14:22 VerifiableProperties [INFO] Verifying properties
+2019-07-15 16:14:22 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 16:14:22 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 16:14:22 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-8c526226-3eb5-4491-ab47-9b7d4a230908
+2019-07-15 16:14:22 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 16:14:22 VerifiableProperties [INFO] Verifying properties
+2019-07-15 16:14:22 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 16:14:22 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 16:14:22 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-5e2e83c0-957f-42fc-9312-77558b6fec23
+2019-07-15 16:14:22 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 16:14:22 JobRunner [INFO] Creating coordinator stream
+2019-07-15 16:14:22 VerifiableProperties [INFO] Verifying properties
+2019-07-15 16:14:22 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 16:14:22 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 16:14:22 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-cf4a4c58-dfa5-4dd1-8caf-cc54ae79a495
+2019-07-15 16:14:22 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 16:14:22 KafkaSystemAdmin [INFO] Create topic __samza_coordinator_SamzaTask_1 in system kafka
+2019-07-15 16:14:22 ZkEventThread [INFO] Starting ZkClient event thread.
+2019-07-15 16:14:27 ZooKeeper [INFO] Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2019-07-15 16:14:27 ZooKeeper [INFO] Client environment:host.name=172.16.0.151
+2019-07-15 16:14:27 ZooKeeper [INFO] Client environment:java.version=1.8.0_202
+2019-07-15 16:14:27 ZooKeeper [INFO] Client environment:java.vendor=Oracle Corporation
+2019-07-15 16:14:27 ZooKeeper [INFO] Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+2019-07-15 16:14:27 ZooKeeper [INFO] Client environment:java.class.path=/Users/ishawakankar/.samza/conf:pathing.jar
+2019-07-15 16:14:27 ZooKeeper [INFO] Client environment:java.library.path=/Users/ishawakankar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2019-07-15 16:14:27 ZooKeeper [INFO] Client environment:java.io.tmpdir=/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/deploy/samza/tmp
+2019-07-15 16:14:27 ZooKeeper [INFO] Client environment:java.compiler=<NA>
+2019-07-15 16:14:27 ZooKeeper [INFO] Client environment:os.name=Mac OS X
+2019-07-15 16:14:27 ZooKeeper [INFO] Client environment:os.arch=x86_64
+2019-07-15 16:14:27 ZooKeeper [INFO] Client environment:os.version=10.14.5
+2019-07-15 16:14:27 ZooKeeper [INFO] Client environment:user.name=ishawakankar
+2019-07-15 16:14:27 ZooKeeper [INFO] Client environment:user.home=/Users/ishawakankar
+2019-07-15 16:14:27 ZooKeeper [INFO] Client environment:user.dir=/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/deploy/samza
+2019-07-15 16:14:27 ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@1649b0e6
+2019-07-15 16:14:27 ZkClient [INFO] Waiting for keeper state SyncConnected
+2019-07-15 16:14:27 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-07-15 16:14:27 ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2019-07-15 16:14:27 ClientCnxn [INFO] Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x1000275e927005b, negotiated timeout = 6000
+2019-07-15 16:14:27 ZkClient [INFO] zookeeper state changed (SyncConnected)
+2019-07-15 16:14:27 ZkEventThread [INFO] Terminate ZkClient event thread.
+2019-07-15 16:14:27 ZooKeeper [INFO] Session: 0x1000275e927005b closed
+2019-07-15 16:14:27 ClientCnxn [INFO] EventThread shut down
+2019-07-15 16:14:27 JobRunner [INFO] Coordinator stream __samza_coordinator_SamzaTask_1 already exists.
+2019-07-15 16:14:27 JobRunner [INFO] Storing config in coordinator stream.
+2019-07-15 16:14:27 CoordinatorStreamSystemProducer [INFO] Starting coordinator stream producer.
+2019-07-15 16:14:27 ProducerConfig [INFO] ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = samza_producer-SamzaTask-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	linger.ms = 10
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 1
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2019-07-15 16:14:27 AppInfoParser [INFO] Kafka version : 0.11.0.2
+2019-07-15 16:14:27 AppInfoParser [INFO] Kafka commitId : 73be1e1168f91ee2
+2019-07-15 16:16:58 JobRunner [INFO] Loading old config from coordinator stream.
+2019-07-15 16:16:58 VerifiableProperties [INFO] Verifying properties
+2019-07-15 16:16:58 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 16:16:58 VerifiableProperties [INFO] Property metadata.broker.list is overridden to localhost:9092
+2019-07-15 16:16:58 VerifiableProperties [INFO] Property request.timeout.ms is overridden to 30000
+2019-07-15 16:16:58 ClientUtils$ [INFO] Fetching metadata from broker BrokerEndPoint(0,localhost,9092) with correlation id 0 for 1 topic(s) Set(__samza_coordinator_SamzaTask_1)
+2019-07-15 16:16:58 SyncProducer [INFO] Connected to localhost:9092 for producing
+2019-07-15 16:16:58 SyncProducer [INFO] Disconnecting from localhost:9092
+2019-07-15 16:16:58 CoordinatorStreamSystemConsumer [INFO] Got metadata {__samza_coordinator_SamzaTask_1=SystemStreamMetadata [streamName=__samza_coordinator_SamzaTask_1, partitionMetadata={Partition [partition=0]=SystemStreamPartitionMetadata [oldestOffset=0, newestOffset=147, upcomingOffset=148]}]}
+2019-07-15 16:16:58 CoordinatorStreamSystemConsumer [INFO] Starting coordinator stream system consumer.
+2019-07-15 16:16:58 KafkaSystemConsumer [INFO] Refreshing brokers for: Map([__samza_coordinator_SamzaTask_1,0] -> 0)
+2019-07-15 16:16:58 BrokerProxy [INFO] Creating new SimpleConsumer for host 172.16.0.151:9092 for system kafka
+2019-07-15 16:16:58 GetOffset [INFO] Validating offset 0 for topic and partition [__samza_coordinator_SamzaTask_1,0]
+2019-07-15 16:16:58 GetOffset [INFO] Able to successfully read from offset 0 for topic and partition [__samza_coordinator_SamzaTask_1,0]. Using it to instantiate consumer.
+2019-07-15 16:16:58 BrokerProxy [INFO] Starting BrokerProxy for 172.16.0.151:9092
+2019-07-15 16:16:58 CoordinatorStreamSystemConsumer [INFO] Bootstrapping configuration from coordinator stream.
+2019-07-15 16:16:59 CoordinatorStreamSystemConsumer [INFO] Stopping coordinator stream system consumer.
+2019-07-15 16:16:59 BrokerProxy [INFO] Shutting down BrokerProxy for 172.16.0.151:9092
+2019-07-15 16:16:59 BrokerProxy [INFO] closing simple consumer...
+2019-07-15 16:16:59 BrokerProxy [INFO] Shutting down due to interrupt.
+2019-07-15 16:16:59 JobRunner [INFO] Deleting old configs that are no longer defined: Set(samza.autoscaling.server.url)
+2019-07-15 16:17:04 CoordinatorStreamSystemProducer [INFO] Stopping coordinator stream producer.
+2019-07-15 16:17:04 KafkaSystemProducer [INFO] Stopping producer for system: kafka
+2019-07-15 16:17:04 KafkaProducer [INFO] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2019-07-15 16:17:04 ClientHelper [INFO] trying to connect to RM 127.0.0.1:8032
+2019-07-15 16:17:04 RMProxy [INFO] Connecting to ResourceManager at /127.0.0.1:8032
+2019-07-15 16:17:04 NativeCodeLoader [WARN] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-15 16:17:05 YarnJob [INFO] Inside YarnJob: fwk_path is , ver is STABLE use it directly 
+2019-07-15 16:17:05 ClientHelper [INFO] preparing to request resources for app id application_1563184343330_0004
+2019-07-15 16:17:05 ClientHelper [INFO] set package url to scheme: "file" port: -1 file: "/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/target/samza-job-1.0-SNAPSHOT-distribution.tar.gz" for application_1563184343330_0004
+2019-07-15 16:17:05 ClientHelper [INFO] set package size to 74360533 for application_1563184343330_0004
+2019-07-15 16:17:05 ClientHelper [INFO] set memory request to 200 for application_1563184343330_0004
+2019-07-15 16:17:05 ClientHelper [INFO] set cpu core request to 1 for application_1563184343330_0004
+2019-07-15 16:17:05 ClientHelper [INFO] set command to List(export SAMZA_LOG_DIR=<LOG_DIR> && ln -sfn <LOG_DIR> logs && exec ./__package/bin/run-jc.sh 1>logs/stdout 2>logs/stderr) for application_1563184343330_0004
+2019-07-15 16:17:05 ClientHelper [INFO] set app ID to application_1563184343330_0004
+2019-07-15 16:17:05 ClientHelper [INFO] localResources is: Map(__package -> resource { scheme: "file" port: -1 file: "/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/target/samza-job-1.0-SNAPSHOT-distribution.tar.gz" } size: 74360533 timestamp: 1563184668000 type: ARCHIVE visibility: APPLICATION)
+2019-07-15 16:17:05 ClientHelper [INFO] set local resources on application master for application_1563184343330_0004
+2019-07-15 16:17:05 ClientHelper [INFO] set environment variables to Map(SAMZA_COORDINATOR_SYSTEM_CONFIG -> {\"systems.kafka.consumer.zookeeper.connect\":\"localhost:2181\",\"systems.kafka.samza.key.serde\":\"string\",\"systems.kafka.samza.factory\":\"org.apache.samza.system.kafka.KafkaSystemFactory\",\"job.coordinator.monitor-partition-change.frequency.ms\":\"300000\",\"job.coordinator.system\":\"kafka\",\"systems.kafka.streams.metrics.samza.msg.serde\":\"metrics\",\"job.id\":\"1\",\"systems.kafka.samza.offset.default\":\"oldest\",\"systems.kafka.consumer.auto.offset.reset\":\"smallest\",\"systems.kafka.samza.msg.serde\":\"string\",\"job.name\":\"SamzaTask\",\"systems.kafka.producer.bootstrap.servers\":\"localhost:9092\"}, JAVA_OPTS -> ) for application_1563184343330_0004
+2019-07-15 16:17:05 ClientHelper [INFO] submitting application request for application_1563184343330_0004
+2019-07-15 16:17:20 YarnClientImpl [INFO] Submitted application application_1563184343330_0004
+2019-07-15 16:17:20 JobRunner [INFO] waiting for job to start
+2019-07-15 16:17:20 YarnJob [INFO] Getting status for applicationId application_1563184343330_0004
+2019-07-15 16:17:30 ClientHelper [INFO] Got state: ACCEPTED, final status: UNDEFINED
+2019-07-15 16:17:30 JobRunner [INFO] job started successfully - Running
+2019-07-15 16:17:30 JobRunner [INFO] exiting
+2019-07-15 16:27:19 JobRunner [INFO] job factory: org.apache.samza.job.yarn.YarnJobFactory
+2019-07-15 16:27:19 VerifiableProperties [INFO] Verifying properties
+2019-07-15 16:27:19 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 16:27:19 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 16:27:19 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-0b9bfc8d-22c7-45a1-9316-95d588167e45
+2019-07-15 16:27:19 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 16:27:19 VerifiableProperties [INFO] Verifying properties
+2019-07-15 16:27:19 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 16:27:19 VerifiableProperties [INFO] Property client.id is overridden to samza_consumer-SamzaTask-1
+2019-07-15 16:27:19 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-2f1009f2-81e8-402c-b458-2bfe63e325ff
+2019-07-15 16:27:19 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 16:27:19 VerifiableProperties [INFO] Verifying properties
+2019-07-15 16:27:19 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 16:27:19 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 16:27:19 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-949ceaed-a715-4756-8130-19383292988a
+2019-07-15 16:27:19 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 16:27:19 VerifiableProperties [INFO] Verifying properties
+2019-07-15 16:27:19 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 16:27:19 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 16:27:19 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-c4fd75af-c6fd-4f68-965b-44a8aaac1d17
+2019-07-15 16:27:19 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 16:27:19 JobRunner [INFO] Creating coordinator stream
+2019-07-15 16:27:19 VerifiableProperties [INFO] Verifying properties
+2019-07-15 16:27:19 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 16:27:19 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 16:27:19 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-7ea68ccd-5a97-4afc-b3be-5e455cdda206
+2019-07-15 16:27:19 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 16:27:19 KafkaSystemAdmin [INFO] Create topic __samza_coordinator_SamzaTask_1 in system kafka
+2019-07-15 16:27:19 ZkEventThread [INFO] Starting ZkClient event thread.
+2019-07-15 16:27:24 ZooKeeper [INFO] Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2019-07-15 16:27:24 ZooKeeper [INFO] Client environment:host.name=172.16.0.151
+2019-07-15 16:27:24 ZooKeeper [INFO] Client environment:java.version=1.8.0_202
+2019-07-15 16:27:24 ZooKeeper [INFO] Client environment:java.vendor=Oracle Corporation
+2019-07-15 16:27:24 ZooKeeper [INFO] Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+2019-07-15 16:27:24 ZooKeeper [INFO] Client environment:java.class.path=/Users/ishawakankar/.samza/conf:pathing.jar
+2019-07-15 16:27:24 ZooKeeper [INFO] Client environment:java.library.path=/Users/ishawakankar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2019-07-15 16:27:24 ZooKeeper [INFO] Client environment:java.io.tmpdir=/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/deploy/samza/tmp
+2019-07-15 16:27:24 ZooKeeper [INFO] Client environment:java.compiler=<NA>
+2019-07-15 16:27:24 ZooKeeper [INFO] Client environment:os.name=Mac OS X
+2019-07-15 16:27:24 ZooKeeper [INFO] Client environment:os.arch=x86_64
+2019-07-15 16:27:24 ZooKeeper [INFO] Client environment:os.version=10.14.5
+2019-07-15 16:27:24 ZooKeeper [INFO] Client environment:user.name=ishawakankar
+2019-07-15 16:27:24 ZooKeeper [INFO] Client environment:user.home=/Users/ishawakankar
+2019-07-15 16:27:24 ZooKeeper [INFO] Client environment:user.dir=/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/deploy/samza
+2019-07-15 16:27:24 ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@1649b0e6
+2019-07-15 16:27:24 ZkClient [INFO] Waiting for keeper state SyncConnected
+2019-07-15 16:27:24 ClientCnxn [INFO] Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-07-15 16:27:24 ClientCnxn [INFO] Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2019-07-15 16:27:24 ClientCnxn [INFO] Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x1000275e927005c, negotiated timeout = 6000
+2019-07-15 16:27:24 ZkClient [INFO] zookeeper state changed (SyncConnected)
+2019-07-15 16:27:24 ZkEventThread [INFO] Terminate ZkClient event thread.
+2019-07-15 16:27:24 ZooKeeper [INFO] Session: 0x1000275e927005c closed
+2019-07-15 16:27:24 ClientCnxn [INFO] EventThread shut down
+2019-07-15 16:27:24 JobRunner [INFO] Coordinator stream __samza_coordinator_SamzaTask_1 already exists.
+2019-07-15 16:27:24 JobRunner [INFO] Storing config in coordinator stream.
+2019-07-15 16:27:24 CoordinatorStreamSystemProducer [INFO] Starting coordinator stream producer.
+2019-07-15 16:27:24 ProducerConfig [INFO] ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = samza_producer-SamzaTask-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	linger.ms = 10
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 1
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2019-07-15 16:27:24 AppInfoParser [INFO] Kafka version : 0.11.0.2
+2019-07-15 16:27:24 AppInfoParser [INFO] Kafka commitId : 73be1e1168f91ee2
+2019-07-15 16:29:55 JobRunner [INFO] Loading old config from coordinator stream.
+2019-07-15 16:29:55 VerifiableProperties [INFO] Verifying properties
+2019-07-15 16:29:55 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 16:29:55 VerifiableProperties [INFO] Property metadata.broker.list is overridden to localhost:9092
+2019-07-15 16:29:55 VerifiableProperties [INFO] Property request.timeout.ms is overridden to 30000
+2019-07-15 16:29:55 ClientUtils$ [INFO] Fetching metadata from broker BrokerEndPoint(0,localhost,9092) with correlation id 0 for 1 topic(s) Set(__samza_coordinator_SamzaTask_1)
+2019-07-15 16:29:55 SyncProducer [INFO] Connected to localhost:9092 for producing
+2019-07-15 16:29:55 SyncProducer [INFO] Disconnecting from localhost:9092
+2019-07-15 16:29:55 CoordinatorStreamSystemConsumer [INFO] Got metadata {__samza_coordinator_SamzaTask_1=SystemStreamMetadata [streamName=__samza_coordinator_SamzaTask_1, partitionMetadata={Partition [partition=0]=SystemStreamPartitionMetadata [oldestOffset=0, newestOffset=178, upcomingOffset=179]}]}
+2019-07-15 16:29:55 CoordinatorStreamSystemConsumer [INFO] Starting coordinator stream system consumer.
+2019-07-15 16:29:55 KafkaSystemConsumer [INFO] Refreshing brokers for: Map([__samza_coordinator_SamzaTask_1,0] -> 0)
+2019-07-15 16:29:55 BrokerProxy [INFO] Creating new SimpleConsumer for host 172.16.0.151:9092 for system kafka
+2019-07-15 16:29:55 GetOffset [INFO] Validating offset 0 for topic and partition [__samza_coordinator_SamzaTask_1,0]
+2019-07-15 16:29:55 GetOffset [INFO] Able to successfully read from offset 0 for topic and partition [__samza_coordinator_SamzaTask_1,0]. Using it to instantiate consumer.
+2019-07-15 16:29:55 BrokerProxy [INFO] Starting BrokerProxy for 172.16.0.151:9092
+2019-07-15 16:29:55 CoordinatorStreamSystemConsumer [INFO] Bootstrapping configuration from coordinator stream.
+2019-07-15 16:29:56 CoordinatorStreamSystemConsumer [INFO] Stopping coordinator stream system consumer.
+2019-07-15 16:29:56 BrokerProxy [INFO] Shutting down BrokerProxy for 172.16.0.151:9092
+2019-07-15 16:29:56 BrokerProxy [INFO] closing simple consumer...
+2019-07-15 16:29:56 BrokerProxy [INFO] Shutting down due to interrupt.
+2019-07-15 16:29:56 JobRunner [INFO] Deleting old configs that are no longer defined: Set()
+2019-07-15 16:29:56 CoordinatorStreamSystemProducer [INFO] Stopping coordinator stream producer.
+2019-07-15 16:29:56 KafkaSystemProducer [INFO] Stopping producer for system: kafka
+2019-07-15 16:29:56 KafkaProducer [INFO] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2019-07-15 16:29:56 ClientHelper [INFO] trying to connect to RM 127.0.0.1:8032
+2019-07-15 16:29:56 RMProxy [INFO] Connecting to ResourceManager at /127.0.0.1:8032
+2019-07-15 16:29:57 NativeCodeLoader [WARN] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-15 16:29:57 YarnJob [INFO] Inside YarnJob: fwk_path is , ver is STABLE use it directly 
+2019-07-15 16:29:57 ClientHelper [INFO] preparing to request resources for app id application_1563188152732_0001
+2019-07-15 16:29:57 ClientHelper [INFO] set package url to scheme: "file" port: -1 file: "/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/target/samza-job-1.0-SNAPSHOT-distribution.tar.gz" for application_1563188152732_0001
+2019-07-15 16:29:57 ClientHelper [INFO] set package size to 74360533 for application_1563188152732_0001
+2019-07-15 16:29:57 ClientHelper [INFO] set memory request to 200 for application_1563188152732_0001
+2019-07-15 16:29:57 ClientHelper [INFO] set cpu core request to 1 for application_1563188152732_0001
+2019-07-15 16:29:57 ClientHelper [INFO] set command to List(export SAMZA_LOG_DIR=<LOG_DIR> && ln -sfn <LOG_DIR> logs && exec ./__package/bin/run-jc.sh 1>logs/stdout 2>logs/stderr) for application_1563188152732_0001
+2019-07-15 16:29:57 ClientHelper [INFO] set app ID to application_1563188152732_0001
+2019-07-15 16:29:57 ClientHelper [INFO] localResources is: Map(__package -> resource { scheme: "file" port: -1 file: "/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/target/samza-job-1.0-SNAPSHOT-distribution.tar.gz" } size: 74360533 timestamp: 1563184668000 type: ARCHIVE visibility: APPLICATION)
+2019-07-15 16:29:57 ClientHelper [INFO] set local resources on application master for application_1563188152732_0001
+2019-07-15 16:29:57 ClientHelper [INFO] set environment variables to Map(SAMZA_COORDINATOR_SYSTEM_CONFIG -> {\"systems.kafka.consumer.zookeeper.connect\":\"localhost:2181\",\"systems.kafka.samza.key.serde\":\"string\",\"systems.kafka.samza.factory\":\"org.apache.samza.system.kafka.KafkaSystemFactory\",\"job.coordinator.monitor-partition-change.frequency.ms\":\"300000\",\"job.coordinator.system\":\"kafka\",\"systems.kafka.streams.metrics.samza.msg.serde\":\"metrics\",\"job.id\":\"1\",\"systems.kafka.samza.offset.default\":\"oldest\",\"systems.kafka.consumer.auto.offset.reset\":\"smallest\",\"systems.kafka.samza.msg.serde\":\"string\",\"job.name\":\"SamzaTask\",\"systems.kafka.producer.bootstrap.servers\":\"localhost:9092\"}, JAVA_OPTS -> ) for application_1563188152732_0001
+2019-07-15 16:29:57 ClientHelper [INFO] submitting application request for application_1563188152732_0001
+2019-07-15 16:30:07 YarnClientImpl [INFO] Submitted application application_1563188152732_0001
+2019-07-15 16:30:07 JobRunner [INFO] waiting for job to start
+2019-07-15 16:30:07 YarnJob [INFO] Getting status for applicationId application_1563188152732_0001
+2019-07-15 16:30:12 ClientHelper [INFO] Got state: ACCEPTED, final status: UNDEFINED
+2019-07-15 16:30:12 JobRunner [INFO] job started successfully - Running
+2019-07-15 16:30:12 JobRunner [INFO] exiting
+2019-07-15 16:54:37 JobRunner [INFO] job factory: org.apache.samza.job.yarn.YarnJobFactory
+2019-07-15 16:54:37 VerifiableProperties [INFO] Verifying properties
+2019-07-15 16:54:37 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 16:54:37 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 16:54:37 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-e1e8fd29-d7fe-471d-be11-1f75a8befd9b
+2019-07-15 16:54:37 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 16:54:37 VerifiableProperties [INFO] Verifying properties
+2019-07-15 16:54:37 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 16:54:37 VerifiableProperties [INFO] Property client.id is overridden to samza_consumer-SamzaTask-1
+2019-07-15 16:54:37 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-58ee2b6e-b580-438e-bd1b-2c4e2ecbf4eb
+2019-07-15 16:54:37 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 16:54:37 VerifiableProperties [INFO] Verifying properties
+2019-07-15 16:54:37 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 16:54:37 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 16:54:37 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-0892dfdf-6a99-4fb7-9f47-f3f362f9af98
+2019-07-15 16:54:37 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 16:54:37 VerifiableProperties [INFO] Verifying properties
+2019-07-15 16:54:37 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 16:54:37 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 16:54:37 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-f55efaf0-7baa-4792-b781-49735eb93f74
+2019-07-15 16:54:37 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 16:54:37 JobRunner [INFO] Creating coordinator stream
+2019-07-15 16:54:37 VerifiableProperties [INFO] Verifying properties
+2019-07-15 16:54:37 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 16:54:37 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 16:54:37 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-2ce602b9-259e-4329-8560-131accfad65b
+2019-07-15 16:54:37 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 16:54:37 KafkaSystemAdmin [INFO] Create topic __samza_coordinator_SamzaTask_1 in system kafka
+2019-07-15 16:54:37 ZkEventThread [INFO] Starting ZkClient event thread.
+2019-07-15 16:54:42 ZooKeeper [INFO] Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2019-07-15 16:54:42 ZooKeeper [INFO] Client environment:host.name=172.16.0.151
+2019-07-15 16:54:42 ZooKeeper [INFO] Client environment:java.version=1.8.0_202
+2019-07-15 16:54:42 ZooKeeper [INFO] Client environment:java.vendor=Oracle Corporation
+2019-07-15 16:54:42 ZooKeeper [INFO] Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+2019-07-15 16:54:42 ZooKeeper [INFO] Client environment:java.class.path=/Users/ishawakankar/.samza/conf:pathing.jar
+2019-07-15 16:54:42 ZooKeeper [INFO] Client environment:java.library.path=/Users/ishawakankar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2019-07-15 16:54:42 ZooKeeper [INFO] Client environment:java.io.tmpdir=/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/deploy/samza/tmp
+2019-07-15 16:54:42 ZooKeeper [INFO] Client environment:java.compiler=<NA>
+2019-07-15 16:54:42 ZooKeeper [INFO] Client environment:os.name=Mac OS X
+2019-07-15 16:54:42 ZooKeeper [INFO] Client environment:os.arch=x86_64
+2019-07-15 16:54:42 ZooKeeper [INFO] Client environment:os.version=10.14.5
+2019-07-15 16:54:42 ZooKeeper [INFO] Client environment:user.name=ishawakankar
+2019-07-15 16:54:42 ZooKeeper [INFO] Client environment:user.home=/Users/ishawakankar
+2019-07-15 16:54:42 ZooKeeper [INFO] Client environment:user.dir=/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/deploy/samza
+2019-07-15 16:54:42 ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@1649b0e6
+2019-07-15 16:54:42 ZkClient [INFO] Waiting for keeper state SyncConnected
+2019-07-15 16:54:42 ClientCnxn [INFO] Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-07-15 16:54:42 ClientCnxn [INFO] Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2019-07-15 16:54:42 ClientCnxn [INFO] Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x1000275e927005e, negotiated timeout = 6000
+2019-07-15 16:54:42 ZkClient [INFO] zookeeper state changed (SyncConnected)
+2019-07-15 16:54:43 ZkEventThread [INFO] Terminate ZkClient event thread.
+2019-07-15 16:54:43 ZooKeeper [INFO] Session: 0x1000275e927005e closed
+2019-07-15 16:54:43 ClientCnxn [INFO] EventThread shut down
+2019-07-15 16:54:43 JobRunner [INFO] Coordinator stream __samza_coordinator_SamzaTask_1 already exists.
+2019-07-15 16:54:43 JobRunner [INFO] Storing config in coordinator stream.
+2019-07-15 16:54:43 CoordinatorStreamSystemProducer [INFO] Starting coordinator stream producer.
+2019-07-15 16:54:43 ProducerConfig [INFO] ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = samza_producer-SamzaTask-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	linger.ms = 10
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 1
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2019-07-15 16:54:43 AppInfoParser [INFO] Kafka version : 0.11.0.2
+2019-07-15 16:54:43 AppInfoParser [INFO] Kafka commitId : 73be1e1168f91ee2
+2019-07-15 16:57:13 JobRunner [INFO] Loading old config from coordinator stream.
+2019-07-15 16:57:13 VerifiableProperties [INFO] Verifying properties
+2019-07-15 16:57:13 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 16:57:13 VerifiableProperties [INFO] Property metadata.broker.list is overridden to localhost:9092
+2019-07-15 16:57:13 VerifiableProperties [INFO] Property request.timeout.ms is overridden to 30000
+2019-07-15 16:57:13 ClientUtils$ [INFO] Fetching metadata from broker BrokerEndPoint(0,localhost,9092) with correlation id 0 for 1 topic(s) Set(__samza_coordinator_SamzaTask_1)
+2019-07-15 16:57:13 SyncProducer [INFO] Connected to localhost:9092 for producing
+2019-07-15 16:57:13 SyncProducer [INFO] Disconnecting from localhost:9092
+2019-07-15 16:57:13 CoordinatorStreamSystemConsumer [INFO] Got metadata {__samza_coordinator_SamzaTask_1=SystemStreamMetadata [streamName=__samza_coordinator_SamzaTask_1, partitionMetadata={Partition [partition=0]=SystemStreamPartitionMetadata [oldestOffset=0, newestOffset=210, upcomingOffset=211]}]}
+2019-07-15 16:57:13 CoordinatorStreamSystemConsumer [INFO] Starting coordinator stream system consumer.
+2019-07-15 16:57:13 KafkaSystemConsumer [INFO] Refreshing brokers for: Map([__samza_coordinator_SamzaTask_1,0] -> 0)
+2019-07-15 16:57:13 BrokerProxy [INFO] Creating new SimpleConsumer for host 172.16.0.151:9092 for system kafka
+2019-07-15 16:57:13 GetOffset [INFO] Validating offset 0 for topic and partition [__samza_coordinator_SamzaTask_1,0]
+2019-07-15 16:57:13 GetOffset [INFO] Able to successfully read from offset 0 for topic and partition [__samza_coordinator_SamzaTask_1,0]. Using it to instantiate consumer.
+2019-07-15 16:57:13 BrokerProxy [INFO] Starting BrokerProxy for 172.16.0.151:9092
+2019-07-15 16:57:13 CoordinatorStreamSystemConsumer [INFO] Bootstrapping configuration from coordinator stream.
+2019-07-15 16:57:15 CoordinatorStreamSystemConsumer [INFO] Stopping coordinator stream system consumer.
+2019-07-15 16:57:15 BrokerProxy [INFO] Shutting down BrokerProxy for 172.16.0.151:9092
+2019-07-15 16:57:15 BrokerProxy [INFO] closing simple consumer...
+2019-07-15 16:57:15 BrokerProxy [INFO] Shutting down due to interrupt.
+2019-07-15 16:57:15 JobRunner [INFO] Deleting old configs that are no longer defined: Set(yarn.am.container.memory.mb, samza.autoscaling.server.url)
+2019-07-15 16:57:25 CoordinatorStreamSystemProducer [INFO] Stopping coordinator stream producer.
+2019-07-15 16:57:25 KafkaSystemProducer [INFO] Stopping producer for system: kafka
+2019-07-15 16:57:25 KafkaProducer [INFO] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2019-07-15 16:57:25 ClientHelper [INFO] trying to connect to RM 127.0.0.1:8032
+2019-07-15 16:57:25 RMProxy [INFO] Connecting to ResourceManager at /127.0.0.1:8032
+2019-07-15 16:57:25 NativeCodeLoader [WARN] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-15 16:57:25 YarnJob [INFO] Inside YarnJob: fwk_path is , ver is STABLE use it directly 
+2019-07-15 16:57:25 ClientHelper [INFO] preparing to request resources for app id application_1563188152732_0002
+2019-07-15 16:57:25 ClientHelper [INFO] set package url to scheme: "file" port: -1 file: "/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/target/samza-job-1.0-SNAPSHOT-distribution.tar.gz" for application_1563188152732_0002
+2019-07-15 16:57:25 ClientHelper [INFO] set package size to 74360533 for application_1563188152732_0002
+2019-07-15 16:57:25 ClientHelper [INFO] set memory request to 1024 for application_1563188152732_0002
+2019-07-15 16:57:25 ClientHelper [INFO] set cpu core request to 1 for application_1563188152732_0002
+2019-07-15 16:57:25 ClientHelper [INFO] set command to List(export SAMZA_LOG_DIR=<LOG_DIR> && ln -sfn <LOG_DIR> logs && exec ./__package/bin/run-jc.sh 1>logs/stdout 2>logs/stderr) for application_1563188152732_0002
+2019-07-15 16:57:25 ClientHelper [INFO] set app ID to application_1563188152732_0002
+2019-07-15 16:57:26 ClientHelper [INFO] localResources is: Map(__package -> resource { scheme: "file" port: -1 file: "/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/target/samza-job-1.0-SNAPSHOT-distribution.tar.gz" } size: 74360533 timestamp: 1563184668000 type: ARCHIVE visibility: APPLICATION)
+2019-07-15 16:57:26 ClientHelper [INFO] set local resources on application master for application_1563188152732_0002
+2019-07-15 16:57:26 ClientHelper [INFO] set environment variables to Map(SAMZA_COORDINATOR_SYSTEM_CONFIG -> {\"systems.kafka.consumer.zookeeper.connect\":\"localhost:2181\",\"systems.kafka.samza.key.serde\":\"string\",\"systems.kafka.samza.factory\":\"org.apache.samza.system.kafka.KafkaSystemFactory\",\"job.coordinator.monitor-partition-change.frequency.ms\":\"300000\",\"job.coordinator.system\":\"kafka\",\"systems.kafka.streams.metrics.samza.msg.serde\":\"metrics\",\"job.id\":\"1\",\"systems.kafka.samza.offset.default\":\"oldest\",\"systems.kafka.consumer.auto.offset.reset\":\"smallest\",\"systems.kafka.samza.msg.serde\":\"string\",\"job.name\":\"SamzaTask\",\"systems.kafka.producer.bootstrap.servers\":\"localhost:9092\"}, JAVA_OPTS -> ) for application_1563188152732_0002
+2019-07-15 16:57:26 ClientHelper [INFO] submitting application request for application_1563188152732_0002
+2019-07-15 16:57:36 YarnClientImpl [INFO] Submitted application application_1563188152732_0002
+2019-07-15 16:57:36 JobRunner [INFO] waiting for job to start
+2019-07-15 16:57:36 YarnJob [INFO] Getting status for applicationId application_1563188152732_0002
+2019-07-15 16:57:41 ClientHelper [INFO] Got state: ACCEPTED, final status: UNDEFINED
+2019-07-15 16:57:41 JobRunner [INFO] job started successfully - Running
+2019-07-15 16:57:41 JobRunner [INFO] exiting
+2019-07-15 17:05:49 JobRunner [INFO] job factory: org.apache.samza.job.yarn.YarnJobFactory
+2019-07-15 17:05:49 VerifiableProperties [INFO] Verifying properties
+2019-07-15 17:05:49 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 17:05:49 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 17:05:49 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-3486fb72-e446-4b1d-ae1b-06a0dcf02d0c
+2019-07-15 17:05:49 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 17:05:49 VerifiableProperties [INFO] Verifying properties
+2019-07-15 17:05:49 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 17:05:49 VerifiableProperties [INFO] Property client.id is overridden to samza_consumer-SamzaTask-1
+2019-07-15 17:05:49 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-40d69106-5ff7-4cff-97c8-bdd6e184fd46
+2019-07-15 17:05:49 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 17:05:49 VerifiableProperties [INFO] Verifying properties
+2019-07-15 17:05:49 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 17:05:49 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 17:05:49 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-d7296a60-4853-4f69-9526-216afae01f24
+2019-07-15 17:05:49 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 17:05:49 VerifiableProperties [INFO] Verifying properties
+2019-07-15 17:05:49 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 17:05:49 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 17:05:49 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-df608e2b-d7ea-49bc-aaff-e6c5d3e25629
+2019-07-15 17:05:49 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 17:05:49 JobRunner [INFO] Creating coordinator stream
+2019-07-15 17:05:49 VerifiableProperties [INFO] Verifying properties
+2019-07-15 17:05:49 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 17:05:49 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 17:05:49 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-ed1665c4-7661-4fe4-8b4f-382e609bd5a2
+2019-07-15 17:05:49 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 17:05:49 KafkaSystemAdmin [INFO] Create topic __samza_coordinator_SamzaTask_1 in system kafka
+2019-07-15 17:05:49 ZkEventThread [INFO] Starting ZkClient event thread.
+2019-07-15 17:05:54 ZooKeeper [INFO] Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2019-07-15 17:05:54 ZooKeeper [INFO] Client environment:host.name=172.16.0.151
+2019-07-15 17:05:54 ZooKeeper [INFO] Client environment:java.version=1.8.0_202
+2019-07-15 17:05:54 ZooKeeper [INFO] Client environment:java.vendor=Oracle Corporation
+2019-07-15 17:05:54 ZooKeeper [INFO] Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+2019-07-15 17:05:54 ZooKeeper [INFO] Client environment:java.class.path=/Users/ishawakankar/.samza/conf:pathing.jar
+2019-07-15 17:05:54 ZooKeeper [INFO] Client environment:java.library.path=/Users/ishawakankar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2019-07-15 17:05:54 ZooKeeper [INFO] Client environment:java.io.tmpdir=/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/deploy/samza/tmp
+2019-07-15 17:05:54 ZooKeeper [INFO] Client environment:java.compiler=<NA>
+2019-07-15 17:05:54 ZooKeeper [INFO] Client environment:os.name=Mac OS X
+2019-07-15 17:05:54 ZooKeeper [INFO] Client environment:os.arch=x86_64
+2019-07-15 17:05:54 ZooKeeper [INFO] Client environment:os.version=10.14.5
+2019-07-15 17:05:54 ZooKeeper [INFO] Client environment:user.name=ishawakankar
+2019-07-15 17:05:54 ZooKeeper [INFO] Client environment:user.home=/Users/ishawakankar
+2019-07-15 17:05:54 ZooKeeper [INFO] Client environment:user.dir=/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/deploy/samza
+2019-07-15 17:05:54 ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@1649b0e6
+2019-07-15 17:05:54 ZkClient [INFO] Waiting for keeper state SyncConnected
+2019-07-15 17:05:54 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-07-15 17:05:54 ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2019-07-15 17:05:54 ClientCnxn [INFO] Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x1000275e9270060, negotiated timeout = 6000
+2019-07-15 17:05:54 ZkClient [INFO] zookeeper state changed (SyncConnected)
+2019-07-15 17:05:54 ZkEventThread [INFO] Terminate ZkClient event thread.
+2019-07-15 17:05:54 ClientCnxn [INFO] EventThread shut down
+2019-07-15 17:05:54 ZooKeeper [INFO] Session: 0x1000275e9270060 closed
+2019-07-15 17:05:54 JobRunner [INFO] Coordinator stream __samza_coordinator_SamzaTask_1 already exists.
+2019-07-15 17:05:54 JobRunner [INFO] Storing config in coordinator stream.
+2019-07-15 17:05:54 CoordinatorStreamSystemProducer [INFO] Starting coordinator stream producer.
+2019-07-15 17:05:54 ProducerConfig [INFO] ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = samza_producer-SamzaTask-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	linger.ms = 10
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 1
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2019-07-15 17:05:54 AppInfoParser [INFO] Kafka version : 0.11.0.2
+2019-07-15 17:05:54 AppInfoParser [INFO] Kafka commitId : 73be1e1168f91ee2
+2019-07-15 17:08:25 JobRunner [INFO] Loading old config from coordinator stream.
+2019-07-15 17:08:25 VerifiableProperties [INFO] Verifying properties
+2019-07-15 17:08:25 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 17:08:25 VerifiableProperties [INFO] Property metadata.broker.list is overridden to localhost:9092
+2019-07-15 17:08:25 VerifiableProperties [INFO] Property request.timeout.ms is overridden to 30000
+2019-07-15 17:08:25 ClientUtils$ [INFO] Fetching metadata from broker BrokerEndPoint(0,localhost,9092) with correlation id 0 for 1 topic(s) Set(__samza_coordinator_SamzaTask_1)
+2019-07-15 17:08:25 SyncProducer [INFO] Connected to localhost:9092 for producing
+2019-07-15 17:08:25 SyncProducer [INFO] Disconnecting from localhost:9092
+2019-07-15 17:08:25 CoordinatorStreamSystemConsumer [INFO] Got metadata {__samza_coordinator_SamzaTask_1=SystemStreamMetadata [streamName=__samza_coordinator_SamzaTask_1, partitionMetadata={Partition [partition=0]=SystemStreamPartitionMetadata [oldestOffset=0, newestOffset=244, upcomingOffset=245]}]}
+2019-07-15 17:08:25 CoordinatorStreamSystemConsumer [INFO] Starting coordinator stream system consumer.
+2019-07-15 17:08:25 KafkaSystemConsumer [INFO] Refreshing brokers for: Map([__samza_coordinator_SamzaTask_1,0] -> 0)
+2019-07-15 17:08:25 BrokerProxy [INFO] Creating new SimpleConsumer for host 172.16.0.151:9092 for system kafka
+2019-07-15 17:08:25 GetOffset [INFO] Validating offset 0 for topic and partition [__samza_coordinator_SamzaTask_1,0]
+2019-07-15 17:08:25 GetOffset [INFO] Able to successfully read from offset 0 for topic and partition [__samza_coordinator_SamzaTask_1,0]. Using it to instantiate consumer.
+2019-07-15 17:08:25 BrokerProxy [INFO] Starting BrokerProxy for 172.16.0.151:9092
+2019-07-15 17:08:25 CoordinatorStreamSystemConsumer [INFO] Bootstrapping configuration from coordinator stream.
+2019-07-15 17:08:26 CoordinatorStreamSystemConsumer [INFO] Stopping coordinator stream system consumer.
+2019-07-15 17:08:26 BrokerProxy [INFO] Shutting down BrokerProxy for 172.16.0.151:9092
+2019-07-15 17:08:26 BrokerProxy [INFO] closing simple consumer...
+2019-07-15 17:08:26 BrokerProxy [INFO] Shutting down due to interrupt.
+2019-07-15 17:08:26 JobRunner [INFO] Deleting old configs that are no longer defined: Set(samza.autoscaling.server.url, yarn.container.memory.mb)
+2019-07-15 17:08:36 CoordinatorStreamSystemProducer [INFO] Stopping coordinator stream producer.
+2019-07-15 17:08:36 KafkaSystemProducer [INFO] Stopping producer for system: kafka
+2019-07-15 17:08:36 KafkaProducer [INFO] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2019-07-15 17:08:37 ClientHelper [INFO] trying to connect to RM 127.0.0.1:8032
+2019-07-15 17:08:37 RMProxy [INFO] Connecting to ResourceManager at /127.0.0.1:8032
+2019-07-15 17:08:37 NativeCodeLoader [WARN] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-15 17:08:37 YarnJob [INFO] Inside YarnJob: fwk_path is , ver is STABLE use it directly 
+2019-07-15 17:08:37 ClientHelper [INFO] preparing to request resources for app id application_1563188152732_0003
+2019-07-15 17:08:37 ClientHelper [INFO] set package url to scheme: "file" port: -1 file: "/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/target/samza-job-1.0-SNAPSHOT-distribution.tar.gz" for application_1563188152732_0003
+2019-07-15 17:08:37 ClientHelper [INFO] set package size to 74360533 for application_1563188152732_0003
+2019-07-15 17:08:37 ClientHelper [INFO] set memory request to 1024 for application_1563188152732_0003
+2019-07-15 17:08:37 ClientHelper [INFO] set cpu core request to 1 for application_1563188152732_0003
+2019-07-15 17:08:37 ClientHelper [INFO] set command to List(export SAMZA_LOG_DIR=<LOG_DIR> && ln -sfn <LOG_DIR> logs && exec ./__package/bin/run-jc.sh 1>logs/stdout 2>logs/stderr) for application_1563188152732_0003
+2019-07-15 17:08:37 ClientHelper [INFO] set app ID to application_1563188152732_0003
+2019-07-15 17:08:37 ClientHelper [INFO] localResources is: Map(__package -> resource { scheme: "file" port: -1 file: "/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/target/samza-job-1.0-SNAPSHOT-distribution.tar.gz" } size: 74360533 timestamp: 1563184668000 type: ARCHIVE visibility: APPLICATION)
+2019-07-15 17:08:37 ClientHelper [INFO] set local resources on application master for application_1563188152732_0003
+2019-07-15 17:08:37 ClientHelper [INFO] set environment variables to Map(SAMZA_COORDINATOR_SYSTEM_CONFIG -> {\"systems.kafka.consumer.zookeeper.connect\":\"localhost:2181\",\"systems.kafka.samza.key.serde\":\"string\",\"systems.kafka.samza.factory\":\"org.apache.samza.system.kafka.KafkaSystemFactory\",\"job.coordinator.monitor-partition-change.frequency.ms\":\"300000\",\"job.coordinator.system\":\"kafka\",\"systems.kafka.streams.metrics.samza.msg.serde\":\"metrics\",\"job.id\":\"1\",\"systems.kafka.samza.offset.default\":\"oldest\",\"systems.kafka.consumer.auto.offset.reset\":\"smallest\",\"systems.kafka.samza.msg.serde\":\"string\",\"job.name\":\"SamzaTask\",\"systems.kafka.producer.bootstrap.servers\":\"localhost:9092\"}, JAVA_OPTS -> ) for application_1563188152732_0003
+2019-07-15 17:08:37 ClientHelper [INFO] submitting application request for application_1563188152732_0003
+2019-07-15 17:08:47 YarnClientImpl [INFO] Submitted application application_1563188152732_0003
+2019-07-15 17:08:47 JobRunner [INFO] waiting for job to start
+2019-07-15 17:08:47 YarnJob [INFO] Getting status for applicationId application_1563188152732_0003
+2019-07-15 17:08:52 ClientHelper [INFO] Got state: ACCEPTED, final status: UNDEFINED
+2019-07-15 17:08:52 JobRunner [INFO] job started successfully - Running
+2019-07-15 17:08:52 JobRunner [INFO] exiting
+2019-07-15 18:21:49 JobRunner [INFO] job factory: org.apache.samza.job.yarn.YarnJobFactory
+2019-07-15 18:21:49 VerifiableProperties [INFO] Verifying properties
+2019-07-15 18:21:49 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 18:21:49 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 18:21:49 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-c910a1be-6d94-4d2a-b927-564abd346a36
+2019-07-15 18:21:49 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 18:21:49 VerifiableProperties [INFO] Verifying properties
+2019-07-15 18:21:49 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 18:21:49 VerifiableProperties [INFO] Property client.id is overridden to samza_consumer-SamzaTask-1
+2019-07-15 18:21:49 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-04bcd9d7-ab63-481e-b325-b204c3c852de
+2019-07-15 18:21:49 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 18:21:49 VerifiableProperties [INFO] Verifying properties
+2019-07-15 18:21:49 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 18:21:49 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 18:21:49 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-9fb4d345-d4d1-49d5-9302-2ad8d59048dd
+2019-07-15 18:21:49 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 18:21:49 VerifiableProperties [INFO] Verifying properties
+2019-07-15 18:21:49 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 18:21:49 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 18:21:49 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-0308845e-3b40-4049-9ac6-52a64d163566
+2019-07-15 18:21:49 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 18:21:49 JobRunner [INFO] Creating coordinator stream
+2019-07-15 18:21:49 VerifiableProperties [INFO] Verifying properties
+2019-07-15 18:21:49 VerifiableProperties [INFO] Property auto.offset.reset is overridden to smallest
+2019-07-15 18:21:49 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 18:21:49 VerifiableProperties [INFO] Property group.id is overridden to undefined-samza-consumer-group-73be7069-1d39-4950-91b6-edc345668b19
+2019-07-15 18:21:49 VerifiableProperties [INFO] Property zookeeper.connect is overridden to localhost:2181
+2019-07-15 18:21:49 KafkaSystemAdmin [INFO] Create topic __samza_coordinator_SamzaTask_1 in system kafka
+2019-07-15 18:21:49 ZkEventThread [INFO] Starting ZkClient event thread.
+2019-07-15 18:21:54 ZooKeeper [INFO] Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2019-07-15 18:21:54 ZooKeeper [INFO] Client environment:host.name=172.16.0.151
+2019-07-15 18:21:54 ZooKeeper [INFO] Client environment:java.version=1.8.0_202
+2019-07-15 18:21:54 ZooKeeper [INFO] Client environment:java.vendor=Oracle Corporation
+2019-07-15 18:21:54 ZooKeeper [INFO] Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre
+2019-07-15 18:21:54 ZooKeeper [INFO] Client environment:java.class.path=/Users/ishawakankar/.samza/conf:pathing.jar
+2019-07-15 18:21:54 ZooKeeper [INFO] Client environment:java.library.path=/Users/ishawakankar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2019-07-15 18:21:54 ZooKeeper [INFO] Client environment:java.io.tmpdir=/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/deploy/samza/tmp
+2019-07-15 18:21:54 ZooKeeper [INFO] Client environment:java.compiler=<NA>
+2019-07-15 18:21:54 ZooKeeper [INFO] Client environment:os.name=Mac OS X
+2019-07-15 18:21:54 ZooKeeper [INFO] Client environment:os.arch=x86_64
+2019-07-15 18:21:54 ZooKeeper [INFO] Client environment:os.version=10.14.5
+2019-07-15 18:21:54 ZooKeeper [INFO] Client environment:user.name=ishawakankar
+2019-07-15 18:21:54 ZooKeeper [INFO] Client environment:user.home=/Users/ishawakankar
+2019-07-15 18:21:54 ZooKeeper [INFO] Client environment:user.dir=/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/deploy/samza
+2019-07-15 18:21:54 ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@1649b0e6
+2019-07-15 18:21:54 ZkClient [INFO] Waiting for keeper state SyncConnected
+2019-07-15 18:21:54 ClientCnxn [INFO] Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-07-15 18:21:54 ClientCnxn [INFO] Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2019-07-15 18:21:54 ClientCnxn [INFO] Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x10003399c9f0004, negotiated timeout = 6000
+2019-07-15 18:21:54 ZkClient [INFO] zookeeper state changed (SyncConnected)
+2019-07-15 18:21:55 ZkEventThread [INFO] Terminate ZkClient event thread.
+2019-07-15 18:21:55 ClientCnxn [INFO] EventThread shut down
+2019-07-15 18:21:55 ZooKeeper [INFO] Session: 0x10003399c9f0004 closed
+2019-07-15 18:21:55 JobRunner [INFO] Coordinator stream __samza_coordinator_SamzaTask_1 already exists.
+2019-07-15 18:21:55 JobRunner [INFO] Storing config in coordinator stream.
+2019-07-15 18:21:55 CoordinatorStreamSystemProducer [INFO] Starting coordinator stream producer.
+2019-07-15 18:21:55 ProducerConfig [INFO] ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = samza_producer-SamzaTask-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	linger.ms = 10
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 1
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2019-07-15 18:21:55 AppInfoParser [INFO] Kafka version : 0.11.0.2
+2019-07-15 18:21:55 AppInfoParser [INFO] Kafka commitId : 73be1e1168f91ee2
+2019-07-15 18:24:26 JobRunner [INFO] Loading old config from coordinator stream.
+2019-07-15 18:24:26 VerifiableProperties [INFO] Verifying properties
+2019-07-15 18:24:26 VerifiableProperties [INFO] Property client.id is overridden to samza_admin-SamzaTask-1
+2019-07-15 18:24:26 VerifiableProperties [INFO] Property metadata.broker.list is overridden to localhost:9092
+2019-07-15 18:24:26 VerifiableProperties [INFO] Property request.timeout.ms is overridden to 30000
+2019-07-15 18:24:26 ClientUtils$ [INFO] Fetching metadata from broker BrokerEndPoint(0,localhost,9092) with correlation id 0 for 1 topic(s) Set(__samza_coordinator_SamzaTask_1)
+2019-07-15 18:24:26 SyncProducer [INFO] Connected to localhost:9092 for producing
+2019-07-15 18:24:26 SyncProducer [INFO] Disconnecting from localhost:9092
+2019-07-15 18:24:26 CoordinatorStreamSystemConsumer [INFO] Got metadata {__samza_coordinator_SamzaTask_1=SystemStreamMetadata [streamName=__samza_coordinator_SamzaTask_1, partitionMetadata={Partition [partition=0]=SystemStreamPartitionMetadata [oldestOffset=0, newestOffset=278, upcomingOffset=279]}]}
+2019-07-15 18:24:26 CoordinatorStreamSystemConsumer [INFO] Starting coordinator stream system consumer.
+2019-07-15 18:24:26 KafkaSystemConsumer [INFO] Refreshing brokers for: Map([__samza_coordinator_SamzaTask_1,0] -> 0)
+2019-07-15 18:24:26 BrokerProxy [INFO] Creating new SimpleConsumer for host 172.16.0.151:9092 for system kafka
+2019-07-15 18:24:26 GetOffset [INFO] Validating offset 0 for topic and partition [__samza_coordinator_SamzaTask_1,0]
+2019-07-15 18:24:26 GetOffset [INFO] Able to successfully read from offset 0 for topic and partition [__samza_coordinator_SamzaTask_1,0]. Using it to instantiate consumer.
+2019-07-15 18:24:26 BrokerProxy [INFO] Starting BrokerProxy for 172.16.0.151:9092
+2019-07-15 18:24:26 CoordinatorStreamSystemConsumer [INFO] Bootstrapping configuration from coordinator stream.
+2019-07-15 18:24:27 CoordinatorStreamSystemConsumer [INFO] Stopping coordinator stream system consumer.
+2019-07-15 18:24:27 BrokerProxy [INFO] Shutting down BrokerProxy for 172.16.0.151:9092
+2019-07-15 18:24:27 BrokerProxy [INFO] closing simple consumer...
+2019-07-15 18:24:27 BrokerProxy [INFO] Shutting down due to interrupt.
+2019-07-15 18:24:27 JobRunner [INFO] Deleting old configs that are no longer defined: Set(samza.autoscaling.server.url)
+2019-07-15 18:24:32 CoordinatorStreamSystemProducer [INFO] Stopping coordinator stream producer.
+2019-07-15 18:24:32 KafkaSystemProducer [INFO] Stopping producer for system: kafka
+2019-07-15 18:24:32 KafkaProducer [INFO] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2019-07-15 18:24:33 ClientHelper [INFO] trying to connect to RM 127.0.0.1:8032
+2019-07-15 18:24:33 RMProxy [INFO] Connecting to ResourceManager at /127.0.0.1:8032
+2019-07-15 18:24:33 NativeCodeLoader [WARN] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-15 18:24:33 YarnJob [INFO] Inside YarnJob: fwk_path is , ver is STABLE use it directly 
+2019-07-15 18:24:33 ClientHelper [INFO] preparing to request resources for app id application_1563194808837_0001
+2019-07-15 18:24:33 ClientHelper [INFO] set package url to scheme: "file" port: -1 file: "/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/target/samza-job-1.0-SNAPSHOT-distribution.tar.gz" for application_1563194808837_0001
+2019-07-15 18:24:33 ClientHelper [INFO] set package size to 74360533 for application_1563194808837_0001
+2019-07-15 18:24:33 ClientHelper [INFO] set memory request to 1024 for application_1563194808837_0001
+2019-07-15 18:24:33 ClientHelper [INFO] set cpu core request to 1 for application_1563194808837_0001
+2019-07-15 18:24:33 ClientHelper [INFO] set command to List(export SAMZA_LOG_DIR=<LOG_DIR> && ln -sfn <LOG_DIR> logs && exec ./__package/bin/run-jc.sh 1>logs/stdout 2>logs/stderr) for application_1563194808837_0001
+2019-07-15 18:24:33 ClientHelper [INFO] set app ID to application_1563194808837_0001
+2019-07-15 18:24:33 ClientHelper [INFO] localResources is: Map(__package -> resource { scheme: "file" port: -1 file: "/Users/ishawakankar/Downloads/scripts/samza-jobs/samzajob/target/samza-job-1.0-SNAPSHOT-distribution.tar.gz" } size: 74360533 timestamp: 1563184668000 type: ARCHIVE visibility: APPLICATION)
+2019-07-15 18:24:33 ClientHelper [INFO] set local resources on application master for application_1563194808837_0001
+2019-07-15 18:24:33 ClientHelper [INFO] set environment variables to Map(SAMZA_COORDINATOR_SYSTEM_CONFIG -> {\"systems.kafka.consumer.zookeeper.connect\":\"localhost:2181\",\"systems.kafka.samza.key.serde\":\"string\",\"systems.kafka.samza.factory\":\"org.apache.samza.system.kafka.KafkaSystemFactory\",\"job.coordinator.monitor-partition-change.frequency.ms\":\"300000\",\"job.coordinator.system\":\"kafka\",\"systems.kafka.streams.metrics.samza.msg.serde\":\"metrics\",\"job.id\":\"1\",\"systems.kafka.samza.offset.default\":\"oldest\",\"systems.kafka.consumer.auto.offset.reset\":\"smallest\",\"systems.kafka.samza.msg.serde\":\"string\",\"job.name\":\"SamzaTask\",\"systems.kafka.producer.bootstrap.servers\":\"localhost:9092\"}, JAVA_OPTS -> ) for application_1563194808837_0001
+2019-07-15 18:24:33 ClientHelper [INFO] submitting application request for application_1563194808837_0001
+2019-07-15 18:24:43 YarnClientImpl [INFO] Submitted application application_1563194808837_0001
+2019-07-15 18:24:43 JobRunner [INFO] waiting for job to start
+2019-07-15 18:24:43 YarnJob [INFO] Getting status for applicationId application_1563194808837_0001
+2019-07-15 18:24:48 ClientHelper [INFO] Got state: ACCEPTED, final status: UNDEFINED
+2019-07-15 18:24:48 JobRunner [INFO] job started successfully - Running
+2019-07-15 18:24:48 JobRunner [INFO] exiting
