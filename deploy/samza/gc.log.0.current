@@ -1,11 +1,19 @@
 Java HotSpot(TM) 64-Bit Server VM (25.202-b08) for bsd-amd64 JRE (1.8.0_202-b08), built on Dec 15 2018 20:16:16 by "java_re" with gcc 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)
-Memory: 4k page, physical 8388608k(127656k free)
+Memory: 4k page, physical 8388608k(341992k free)
 
 /proc/meminfo:
 
-CommandLine flags: -XX:GCLogFileSize=10241024 -XX:InitialHeapSize=134217728 -XX:MaxHeapSize=805306368 -XX:NumberOfGCLogFiles=10 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseGCLogFileRotation -XX:+UseParallelGC 
-2019-07-10T16:15:24.749-0530: 0.407: [GC (Allocation Failure)  33280K->4247K(125952K), 0.0048979 secs]
-2019-07-10T16:15:25.056-0530: 0.714: [GC (Allocation Failure)  37527K->5066K(159232K), 0.0045980 secs]
-2019-07-10T16:15:35.568-0530: 11.227: [GC (Allocation Failure)  71626K->8761K(159232K), 0.0081983 secs]
-2019-07-10T16:17:55.807-0530: 151.463: [GC (Metadata GC Threshold)  20353K->8085K(159232K), 0.0044072 secs]
-2019-07-10T16:17:55.811-0530: 151.468: [Full GC (Metadata GC Threshold)  8085K->4744K(113152K), 0.0190915 secs]
+CommandLine flags: -XX:CompressedClassSpaceSize=260046848 -XX:G1ReservePercent=20 -XX:GCLogFileSize=10241024 -XX:InitialHeapSize=262144000 -XX:MaxGCPauseMillis=100 -XX:MaxHeapSize=2621440000 -XX:MaxMetaspaceSize=268435456 -XX:NumberOfGCLogFiles=10 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseG1GC -XX:+UseGCLogFileRotation -XX:+UseStringDeduplication 
+2019-08-14T15:23:00.028-0530: 0.377: [GC pause (G1 Evacuation Pause) (young) 12M->2020K(250M), 0.0035306 secs]
+2019-08-14T15:23:00.235-0530: 0.584: [GC pause (G1 Evacuation Pause) (young) 15M->3284K(250M), 0.0026923 secs]
+2019-08-14T15:23:00.238-0530: 0.587: [GC concurrent-string-deduplication, 184.0B->184.0B(0.0B), avg 0.0%, 0.0000034 secs]
+2019-08-14T15:25:41.841-0530: 162.208: [GC pause (Metadata GC Threshold) (young) (initial-mark) 113M->17M(250M), 0.0147848 secs]
+2019-08-14T15:25:41.856-0530: 162.223: [GC concurrent-root-region-scan-start]
+2019-08-14T15:25:41.857-0530: 162.224: [GC concurrent-string-deduplication, 155.7K->133.9K(21.8K), avg 14.0%, 0.0005329 secs]
+2019-08-14T15:25:41.862-0530: 162.229: [GC concurrent-root-region-scan-end, 0.0057091 secs]
+2019-08-14T15:25:41.862-0530: 162.229: [GC concurrent-mark-start]
+2019-08-14T15:25:41.862-0530: 162.229: [GC concurrent-mark-end, 0.0001288 secs]
+2019-08-14T15:25:41.862-0530: 162.229: [GC remark, 0.0031677 secs]
+2019-08-14T15:25:41.865-0530: 162.232: [GC cleanup 18M->18M(250M), 0.0004187 secs]
+2019-08-14T15:25:41.866-0530: 162.233: [GC concurrent-cleanup-start]
+2019-08-14T15:25:41.866-0530: 162.233: [GC concurrent-cleanup-end, 0.0000077 secs]

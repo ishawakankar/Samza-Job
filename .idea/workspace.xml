@@ -1,8 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="924ad2a0-b7da-4e8c-bf17-c68435511494" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
+    <list default="true" id="799cfe24-84db-4a8a-a02a-1f1b3eabc64d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy/samza/lib/samza-core_2.12-0.14.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/samza/.log" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/samza/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/samza/config/samzajob.properties" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/samza/config/samzajob.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/samza/gc.log.0.current" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/samza/gc.log.0.current" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/samza/lib/samza-api-0.14.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/samza/lib/samza-api-0.14.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/samza/lib/samza-job-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/samza/lib/samza-job-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/samza/lib/samza-log4j-0.14.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/samza/lib/samza-log4j-0.14.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/samza/manifest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/samza/manifest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/samza/pathing.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/samza/pathing.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/samza/samza-job-1.0-SNAPSHOT-distribution.tar.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/samza/samza-job-1.0-SNAPSHOT-distribution.tar.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/config/samzajob.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/config/samzajob.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sample/ep/samza/task/SamzaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sample/ep/samza/task/SamzaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sample/ep/samza/task/SamzaTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sample/ep/samza/task/SamzaTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/sample/ep/samza/task/SamzaTaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sample/ep/samza/task/SamzaTaskTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/archive-tmp/samzajob.properties.1166418840.filtered" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/archive-tmp/samzajob.properties.2007643275.filtered" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/samza-job-1.0-SNAPSHOT-distribution.tar.gz" beforeDir="false" afterPath="$PROJECT_DIR$/target/samza-job-1.0-SNAPSHOT-distribution.tar.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/samza-job-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/samza-job-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.sample.ep.samza.task.SamzaTaskTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.sample.ep.samza.task.SamzaTaskTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/sample/ep/samza/task/SamzaTaskTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/sample/ep/samza/task/SamzaTaskTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +42,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/sample/ep/samza/task/SamzaTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+            <state relative-caret-position="501">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -24,45 +54,50 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/sample/ep/samza/task/SamzaSource.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+            <state relative-caret-position="15">
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="118" selection-start-line="3" selection-start-column="118" selection-end-line="3" selection-end-column="118" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/samza/samza-api/0.14.1/samza-api-0.14.1.jar!/org/apache/samza/task/StreamTask.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/sample/ep/samza/task/SamzaTaskTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="531">
+              <caret line="50" column="52" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/config/samzajob.properties">
+        <entry file="file://$PROJECT_DIR$/deploy/samza/config/samzajob.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/assembly/src.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+            <state relative-caret-position="330">
+              <caret line="46" column="61" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -77,10 +112,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/sample/ep/samza/task/SamzaConfig.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/sample/ep/samza/task/SamzaSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            <state relative-caret-position="180">
+              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+              <folding>
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,58 +130,42 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/org/sample/ep/samza/task/SamzaSink.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/sample/ep/samza/task/SamzaConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="XSLT Stylesheet" />
-      </list>
-    </option>
-  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>telemetry</find>
-      <find>local</find>
-      <find>teleme</find>
-      <find>localh</find>
-      <find>lib</find>
-      <find>reg`</find>
-      <find>regist</find>
-      <find>registry`</find>
-      <find>kafka</find>
-      <find>api</find>
+      <find>deseri</find>
+      <find>id</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/org/sample/ep/samza/service/SamzaService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/sample/ep/samza/task/SamzaConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/sample/ep/samza/task/SamzaSource.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/sample/ep/samza/fixtures/EventFixture.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/sample/ep/samza/task/SamzaTaskTest.java" />
-        <option value="$PROJECT_DIR$/src/main/assembly/src.xml.xsl" />
-        <option value="$PROJECT_DIR$/deploy/samza/config/samzajob.properties" />
-        <option value="$PROJECT_DIR$/deploy/samza/bin/run-job.sh" />
-        <option value="$PROJECT_DIR$/src/main/java/org/sample/ep/samza/task/SamzaTask.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/assembly/src.xml" />
         <option value="$PROJECT_DIR$/src/main/config/samzajob.properties" />
+        <option value="$PROJECT_DIR$/deploy/samza/config/samzajob.properties" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/org/sample/ep/samza/task/SamzaTask.java" />
       </list>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -164,54 +189,39 @@
     <option name="width" value="1440" />
     <option name="height" value="793" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="samzajob" type="b2602c69:ProjectViewProjectNode" />
+              <item name="samza-job" type="b2602c69:ProjectViewProjectNode" />
               <item name="samzajob" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="samzajob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="samzajob" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="samzajob" type="b2602c69:ProjectViewProjectNode" />
+              <item name="samza-job" type="b2602c69:ProjectViewProjectNode" />
               <item name="samzajob" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="samzajob" type="b2602c69:ProjectViewProjectNode" />
+              <item name="samza-job" type="b2602c69:ProjectViewProjectNode" />
               <item name="samzajob" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="assembly" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="samzajob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="samzajob" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="samzajob" type="b2602c69:ProjectViewProjectNode" />
+              <item name="samza-job" type="b2602c69:ProjectViewProjectNode" />
               <item name="samzajob" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="samzajob" type="b2602c69:ProjectViewProjectNode" />
+              <item name="samza-job" type="b2602c69:ProjectViewProjectNode" />
               <item name="samzajob" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -219,7 +229,7 @@
               <item name="samza" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="samzajob" type="b2602c69:ProjectViewProjectNode" />
+              <item name="samza-job" type="b2602c69:ProjectViewProjectNode" />
               <item name="samzajob" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -228,7 +238,7 @@
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="samzajob" type="b2602c69:ProjectViewProjectNode" />
+              <item name="samza-job" type="b2602c69:ProjectViewProjectNode" />
               <item name="samzajob" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -236,27 +246,21 @@
               <item name="samza" type="462c0819:PsiDirectoryNode" />
               <item name="task" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="samzajob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="samzajob" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="CatdeaLogs" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562755148595" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/assembly" />
-    </key>
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565779977769" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -270,22 +274,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SamzaTaskTest.shouldReadFromKafkaTopic">
-    <configuration name="SamzaTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.sample.ep.samza.task.SamzaTask" />
-      <module name="samzajob" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.sample.ep.samza.task.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SamzaTaskTest">
     <configuration name="SamzaTaskTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="samzajob" />
+      <module name="samza-job" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.sample.ep.samza.task.*" />
@@ -300,7 +291,7 @@
       </method>
     </configuration>
     <configuration name="SamzaTaskTest.shouldCallAllServices" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="samzajob" />
+      <module name="samza-job" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.sample.ep.samza.task.*" />
@@ -315,24 +306,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SamzaTaskTest.shouldCallAllTaskFunctions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="samzajob" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.sample.ep.samza.task.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.sample.ep.samza.task" />
-      <option name="MAIN_CLASS_NAME" value="org.sample.ep.samza.task.SamzaTaskTest" />
-      <option name="METHOD_NAME" value="shouldCallAllTaskFunctions" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SamzaTaskTest.shouldReadFromKafkaTopic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="samzajob" />
+      <module name="samza-job" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.sample.ep.samza.task.*" />
@@ -349,19 +324,17 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SamzaTaskTest.shouldReadFromKafkaTopic" />
         <item itemvalue="JUnit.SamzaTaskTest" />
+        <item itemvalue="JUnit.SamzaTaskTest.shouldReadFromKafkaTopic" />
         <item itemvalue="JUnit.SamzaTaskTest.shouldCallAllServices" />
-        <item itemvalue="JUnit.SamzaTaskTest.shouldCallAllTaskFunctions" />
-        <item itemvalue="Application.SamzaTask" />
       </list>
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$/../../../ishawakankar/workspace/Stackroute Labs/Sunbird-Data Analytics/giter8/scalagitertemplate" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../ishawakankar/workspace/Stackroute Labs/Sunbird-Data Analytics/gitter8/scalagitertemplate" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/ishawakankar/workspace/Stackroute Labs/Sunbird-Data Analytics/giter8/scalagitertemplate" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/ishawakankar/workspace/Stackroute Labs/Sunbird-Data Analytics/gitter8/scalagitertemplate" value="PREVIEW" />
       </map>
     </option>
   </component>
@@ -370,44 +343,26 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="924ad2a0-b7da-4e8c-bf17-c68435511494" name="Default Changelist" comment="" />
-      <created>1562664256765</created>
+      <changelist id="799cfe24-84db-4a8a-a02a-1f1b3eabc64d" name="Default Changelist" comment="" />
+      <created>1564468131806</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1562664256765</updated>
+      <updated>1564468131806</updated>
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SamzaTaskTest_shouldReadFromKafkaTopic - 2019.07.09 at 18h 45m 26s.xml">
+    <history-entry file="SamzaTaskTest_shouldCallAllServices - 2019.08.13 at 12h 45m 34s.xml">
+      <configuration name="SamzaTaskTest.shouldCallAllServices" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SamzaTaskTest_shouldReadFromKafkaTopic - 2019.08.13 at 12h 45m 45s.xml">
       <configuration name="SamzaTaskTest.shouldReadFromKafkaTopic" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SamzaTaskTest_shouldReadFromKafkaTopic - 2019.07.09 at 18h 47m 34s.xml">
-      <configuration name="SamzaTaskTest.shouldReadFromKafkaTopic" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SamzaTaskTest - 2019.07.09 at 18h 49m 01s.xml">
+    <history-entry file="SamzaTaskTest - 2019.08.13 at 18h 35m 30s.xml">
       <configuration name="SamzaTaskTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SamzaTaskTest - 2019.07.09 at 18h 51m 31s.xml">
+    <history-entry file="SamzaTaskTest - 2019.08.14 at 11h 17m 36s.xml">
       <configuration name="SamzaTaskTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SamzaTaskTest_shouldReadFromKafkaTopic - 2019.07.09 at 18h 52m 37s.xml">
-      <configuration name="SamzaTaskTest.shouldReadFromKafkaTopic" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SamzaTaskTest_shouldReadFromKafkaTopic - 2019.07.09 at 18h 54m 06s.xml">
-      <configuration name="SamzaTaskTest.shouldReadFromKafkaTopic" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SamzaTaskTest_shouldReadFromKafkaTopic - 2019.07.09 at 18h 54m 14s.xml">
-      <configuration name="SamzaTaskTest.shouldReadFromKafkaTopic" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SamzaTaskTest_shouldReadFromKafkaTopic - 2019.07.10 at 11h 34m 45s.xml">
-      <configuration name="SamzaTaskTest.shouldReadFromKafkaTopic" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SamzaTaskTest_shouldReadFromKafkaTopic - 2019.07.10 at 11h 56m 18s.xml">
-      <configuration name="SamzaTaskTest.shouldReadFromKafkaTopic" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SamzaTaskTest_shouldReadFromKafkaTopic - 2019.07.10 at 11h 57m 04s.xml">
-      <configuration name="SamzaTaskTest.shouldReadFromKafkaTopic" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -421,13 +376,41 @@
       <window_info id="Image Layers" order="4" />
       <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.32952926" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32952926" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32952926" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.32952926" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32952926" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297568" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25679544" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32952926" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32952926" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32952926" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32952926" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -435,97 +418,35 @@
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.3297568" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297568" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/config/samzajob.properties.properties" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/samza/samza-api/1.1.0/samza-api-1.1.0.jar!/org/apache/samza/system/IncomingMessageEnvelope.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
-          <folding>
-            <element signature="e#1775#1776#0" expanded="true" />
-            <element signature="e#1824#1825#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/samza/samza-api/1.1.0/samza-api-1.1.0.jar!/org/apache/samza/system/SystemStreamPartition.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/sample/ep/samza/fixtures/EventFixture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/assembly/src.xsl" />
-    <entry file="file://$PROJECT_DIR$/src/main/assembly/src.xml.xsl" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
+        <state relative-caret-position="-285" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/sample/ep/samza/task/SamzaTaskTest.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/lang/Override.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-129">
-          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deploy/samza/bin/run-job.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deploy/samza/config/samzajob.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deploy/samza/bin/run-class.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/sample/ep/samza/task/SamzaTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="322">
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/assembly/src.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+        <state relative-caret-position="-489" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/samza/samza-api/0.14.1/samza-api-0.14.1.jar!/org/apache/samza/task/StreamTask.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -536,40 +457,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/sample/ep/samza/task/SamzaConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/sample/ep/samza/task/SamzaSink.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sample/ep/samza/task/SamzaConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="29" />
+        <state relative-caret-position="240">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/sample/ep/samza/task/SamzaTaskTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="50" column="52" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/config/samzajob.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+        <state relative-caret-position="330">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/samza/samza-api/0.14.1/samza-api-0.14.1.jar!/org/apache/samza/task/InitableTask.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/sample/ep/samza/task/SamzaSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        <state relative-caret-position="180">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#331#332#0" expanded="true" />
             <element signature="e#371#372#0" expanded="true" />
             <element signature="e#405#406#0" expanded="true" />
@@ -578,12 +508,116 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/samza/config/samzajob.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="46" column="61" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="118" selection-start-line="3" selection-start-column="118" selection-end-line="3" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sample/ep/samza/task/SamzaTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>samza-job</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

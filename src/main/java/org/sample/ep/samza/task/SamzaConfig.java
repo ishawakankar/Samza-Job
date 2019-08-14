@@ -9,7 +9,7 @@ public class SamzaConfig {
     private String sampleTopic;
 
     public SamzaConfig(Config config) {
-        sampleTopic = config.get("output.sample.topic.name", "telemetry.sample");
+        sampleTopic = config.get("output.sample.topic.name", "telemetry-sample1");
     }
 
     public String getSampleTopic() { return sampleTopic; }

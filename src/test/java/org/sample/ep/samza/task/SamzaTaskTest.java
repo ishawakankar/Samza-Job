@@ -8,6 +8,8 @@ import static org.mockito.Mockito.stub;
 import org.apache.samza.system.IncomingMessageEnvelope;
 import org.apache.samza.system.SystemStreamPartition;
 import org.apache.samza.task.MessageCollector;
+import org.apache.samza.task.TaskContext;
+import org.apache.samza.task.TaskCoordinator;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
@@ -21,12 +23,16 @@ public class SamzaTaskTest {
     private SamzaTask samzaTask;
     private IncomingMessageEnvelope envelopeMock;
     private MessageCollector collector;
+    private TaskCoordinator coordinator;
+    private TaskContext context;
 
     @Before
     public void setUp() {
         configMock = Mockito.mock(Config.class);
         envelopeMock = mock(IncomingMessageEnvelope.class);
         collector = mock(MessageCollector.class);
+        coordinator = mock(TaskCoordinator.class);
+        context = mock(TaskContext.class);
 
         stub(configMock.get("output.sample.topic.name", SAMPLE_TOPIC)).toReturn(SAMPLE_TOPIC);
         stub(envelopeMock.getSystemStreamPartition())
@@ -35,15 +41,14 @@ public class SamzaTaskTest {
 
     @Test
     public void shouldCallAllServices() throws Exception {
-
-        samzaTask = new SamzaTask(configMock);
+        samzaTask = new SamzaTask(configMock,context);
     }
 
     @Test
     public void shouldReadFromKafkaTopic () throws Exception {
         stub(envelopeMock.getMessage()).toReturn(EventFixture.SampleEvent());
 
-        samzaTask = new SamzaTask(configMock);
-        samzaTask.process(envelopeMock, collector);
+        samzaTask = new SamzaTask(configMock,context);
+        samzaTask.process(envelopeMock, collector, coordinator);
     }
 }
