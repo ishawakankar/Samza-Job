@@ -1,4 +1,4 @@
-##Samza Job
+# Samza Job
 
 To run the job:
  - Create kafka topics: "telemetry-sample" and "telemetry-sample1". Push some string messages into "telemetry-sample".
