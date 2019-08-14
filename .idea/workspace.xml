@@ -2,36 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="799cfe24-84db-4a8a-a02a-1f1b3eabc64d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deploy/samza/lib/samza-core_2.12-0.14.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/samza/.log" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/samza/.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/samza/config/samzajob.properties" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/samza/config/samzajob.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/samza/gc.log.0.current" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/samza/gc.log.0.current" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/samza/lib/samza-api-0.14.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/samza/lib/samza-api-0.14.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/samza/lib/samza-job-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/samza/lib/samza-job-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/samza/lib/samza-log4j-0.14.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/samza/lib/samza-log4j-0.14.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/samza/manifest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/samza/manifest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/samza/pathing.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/samza/pathing.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/samza/samza-job-1.0-SNAPSHOT-distribution.tar.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/samza/samza-job-1.0-SNAPSHOT-distribution.tar.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/config/samzajob.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/config/samzajob.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sample/ep/samza/task/SamzaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sample/ep/samza/task/SamzaConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sample/ep/samza/task/SamzaTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sample/ep/samza/task/SamzaTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/sample/ep/samza/task/SamzaTaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sample/ep/samza/task/SamzaTaskTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/archive-tmp/samzajob.properties.1166418840.filtered" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/archive-tmp/samzajob.properties.2007643275.filtered" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/samza-job-1.0-SNAPSHOT-distribution.tar.gz" beforeDir="false" afterPath="$PROJECT_DIR$/target/samza-job-1.0-SNAPSHOT-distribution.tar.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/samza-job-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/samza-job-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.sample.ep.samza.task.SamzaTaskTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.sample.ep.samza.task.SamzaTaskTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/sample/ep/samza/task/SamzaTaskTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/sample/ep/samza/task/SamzaTaskTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/samza-job-1.0-SNAPSHOT-distribution.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/samza-job-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/sample/ep/samza/fixtures/EventFixture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/sample/ep/samza/task/SamzaTaskTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/sample/ep/samza/task/SamzaTask.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="501">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -163,8 +144,8 @@
         <option value="$PROJECT_DIR$/src/main/config/samzajob.properties" />
         <option value="$PROJECT_DIR$/deploy/samza/config/samzajob.properties" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/org/sample/ep/samza/task/SamzaTask.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -256,7 +237,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565779977769" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565780263638" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -522,20 +503,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/sample/ep/samza/task/SamzaTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="501">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
